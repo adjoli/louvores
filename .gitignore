@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+.vscode
+
+# Arquivos de apoio ao projeto
+*data/raw/ppt
+*.db
+*output
+*logs

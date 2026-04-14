@@ -1,7 +1,7 @@
 [project]
 name = "louvores"
 version = "0.1.0"
-description = "Add your description here"
+description = "Criação automatizada de slides para louvores"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -10,3 +10,11 @@ dependencies = [
     "sqlmodel>=0.0.37",
     "typer>=0.24.1",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
+
+[project.scripts]
+louvores = "src.louvores.cli.app:app"

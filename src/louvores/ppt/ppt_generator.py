@@ -1,6 +1,5 @@
 from pptx import Presentation
 
-from louvores.core.config import TEMPLATE_DIR
 from louvores.db.models import Hino
 from louvores.domain.slide_parts import SequenciaHino, TipoParte
 from louvores.ppt.layouts import SlideLayout
@@ -16,8 +15,10 @@ def _map_layout(tipo: TipoParte) -> SlideLayout:
             raise ValueError(f"Tipo de parte desconhecido: {tipo}")
 
 
-def create_slides(hino: Hino, sequencia: SequenciaHino) -> Presentation:
-    prs = Presentation(TEMPLATE_DIR / "template.pptx")
+def create_slides(
+    hino: Hino, sequencia: SequenciaHino, template_path: str
+) -> Presentation:
+    prs = Presentation(template_path)
 
     num_slides = len(sequencia.partes)
 
