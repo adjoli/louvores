@@ -3,6 +3,8 @@ from louvores.db.repository import (
     coletanea_por_codigo,
     hino_por_numero,
     hinos_por_coletanea,
+    listar_coletaneas,
+    listar_hinos,
 )
 
 
@@ -26,6 +28,20 @@ def test_busca_coletanea_por_codigo(session, coletanea_factory):
     session.commit()
 
     resultado = coletanea_por_codigo(session, "XYZ")
+
+    assert resultado.id is not None
+    assert resultado.titulo == "Coletânea PADRÃO"
+
+
+# --------------------------------------------
+def test_listar_coletaneas(session, coletanea_factory):
+    coletanea = coletanea_factory()
+
+    session.add(coletanea)
+    session.commit()
+
+    resultado = listar_coletaneas(session)
+    assert len(resultado) > 0
 
 
 # --------------------------------------------
@@ -74,3 +90,6 @@ def test_busca_hinos_por_coletanea(session, coletanea_factory, hino_factory):
 
     assert len(hinos_por_coletanea(session, "ABC")) == 2
     assert len(hinos_por_coletanea(session, "DEF")) == 3
+
+    # Aproveitando os hinos criados para testar a função "listar_hinos()"
+    assert len(listar_hinos(session)) == 5  # total de hinos criados
