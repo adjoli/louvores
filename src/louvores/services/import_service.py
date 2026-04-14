@@ -1,31 +1,42 @@
 import csv
 import logging
 from pathlib import Path
-from typing import Dict
 
 from louvores.db.models import Coletanea, Hino
 
 logger = logging.getLogger(__name__)
 
 
-RAW_DIR = Path("data/raw")
+def import_from_csv(session, path: Path):
+    logger.info(f"Importando dados de {path}")
 
+    coletaneas: dict[str, Coletanea] = {}
 
-def import_data(session):
-    logger.info("Importando dados...")
-    with open(RAW_DIR / "data_to_load.csv", "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter=";")
 
-        coletaneas: Dict[str, Coletanea] = {}
-        for row in reader:
-            titulo_coletanea = row.pop("coletanea")
-            codigo_coletanea = row.pop("codigo")
+        for i, row in enumerate(reader, start=1):
+            try:
+                titulo_coletanea = row["coletanea"]
+                codigo_coletanea = row["codigo"]
 
-            hino = Hino(**row)
-            if codigo_coletanea not in coletaneas:
-                coletanea = Coletanea(codigo=codigo_coletanea, titulo=titulo_coletanea)
-                session.add(coletanea)
-                coletaneas[codigo_coletanea] = coletanea
-            coletaneas[codigo_coletanea].hinos.append(hino)
-        session.commit()
+                dados_hino = {
+                    k: v for k, v in row.items() if k not in ("coletanea", "codigo")
+                }
+
+                hino = Hino(**dados_hino)
+
+                if codigo_coletanea not in coletaneas:
+                    coletanea = Coletanea(
+                        codigo=codigo_coletanea, titulo=titulo_coletanea
+                    )
+                    session.add(coletanea)
+                    coletaneas[codigo_coletanea] = coletanea
+
+                coletaneas[codigo_coletanea].hinos.append(hino)
+            except Exception as e:
+                logger.error(f"Erro na linha {i}: {e}")
+
+            session.commit()
+
     logger.info("Importação concluída!")
