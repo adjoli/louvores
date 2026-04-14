@@ -1,6 +1,7 @@
 import pytest
 from sqlmodel import Session, SQLModel, create_engine
 
+from louvores.core.config import TEMPLATE_DIR
 from louvores.db.models import Coletanea, Hino
 
 
@@ -43,3 +44,9 @@ def hino_factory():
         return Hino(**data)
 
     return _create
+
+
+# ----------------------------------------
+@pytest.fixture
+def template_path():
+    return TEMPLATE_DIR / "atual.pptx"

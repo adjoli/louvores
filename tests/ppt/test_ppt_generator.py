@@ -1,10 +1,9 @@
-from louvores.db.models import Hino
 from louvores.domain.slide_parts import Estrofe, Refrao, SequenciaHino
 from louvores.ppt.ppt_generator import create_slides
 
 
 # --------------------------------------------
-def test_cria_apresentacao(coletanea_factory, hino_factory):
+def test_cria_apresentacao(coletanea_factory, hino_factory, template_path):
     hino = hino_factory()
     hino.coletanea = coletanea_factory()
 
@@ -15,13 +14,13 @@ def test_cria_apresentacao(coletanea_factory, hino_factory):
         ]
     )
 
-    prs = create_slides(hino, sequencia)
+    prs = create_slides(hino, sequencia, template_path)
 
     assert len(prs.slides) == 3
 
 
 # --------------------------------------------
-def test_conteudo_do_slide(coletanea_factory, hino_factory):
+def test_conteudo_do_slide(coletanea_factory, hino_factory, template_path):
     hino = hino_factory()
     hino.coletanea = coletanea_factory()
 
@@ -31,7 +30,7 @@ def test_conteudo_do_slide(coletanea_factory, hino_factory):
         ]
     )
 
-    prs = create_slides(hino, sequencia)
+    prs = create_slides(hino, sequencia, template_path)
 
     slide = prs.slides[1]
 
@@ -40,7 +39,7 @@ def test_conteudo_do_slide(coletanea_factory, hino_factory):
 
 
 # --------------------------------------------
-def test_rodape(coletanea_factory, hino_factory):
+def test_rodape(coletanea_factory, hino_factory, template_path):
     hino = hino_factory()
     hino.coletanea = coletanea_factory()
 
@@ -52,7 +51,7 @@ def test_rodape(coletanea_factory, hino_factory):
         ]
     )
 
-    prs = create_slides(hino, sequencia)
+    prs = create_slides(hino, sequencia, template_path)
 
     slide1 = prs.slides[1]
     slide2 = prs.slides[2]
