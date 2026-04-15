@@ -1,14 +1,15 @@
 import logging
+from pathlib import Path
 
 import typer
 from rich.console import Console
 from rich.table import Table
 
-from louvores.core.config import CSV_PATH, TEMPLATE_DIR
+from louvores.core.config import CSV_PATH, ZIP_DIR
 from louvores.core.logging_config import setup_logging
 from louvores.db.database import engine, get_session
 from louvores.db.models import SQLModel
-from louvores.services.import_service import import_from_csv
+from louvores.services.import_service import import_from_csv, importar_letras_zip
 from louvores.services.slide_service import gerar_slides_hino
 from louvores.services.stats_service import listar_faltantes, obter_stats
 
@@ -94,6 +95,15 @@ def faltantes(
         )
 
     console.print(table)
+
+
+# --------------------------------------------
+@app.command(short_help="Importa letras dos louvores (em arquivos zipados)")
+def importar_letras(
+    caminho: Path = typer.Option(ZIP_DIR, help="Pasta com arquivos .zip"),
+):
+    with get_session() as session:
+        importar_letras_zip(session, caminho)
 
 
 # --------------------------------------------

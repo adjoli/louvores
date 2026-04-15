@@ -70,3 +70,10 @@ def hinos_sem_letra(session, codigo_coletanea: str | None = None) -> list[Hino]:
     stmt = stmt.order_by(Hino.numeracao)
 
     return session.exec(stmt).all()
+
+
+# --------------------------------------------
+def atualizar_letra_hino(session, id_hino: int, letra_hino: str) -> None:
+    hino = session.get(Hino, id_hino)
+    hino.letra = letra_hino
+    session.commit()
