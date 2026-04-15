@@ -1,10 +1,11 @@
 import logging
 
-from louvores.db.repository import stats_por_coletanea
+from louvores.db.repository import hinos_sem_letra, stats_por_coletanea
 
 logger = logging.getLogger(__name__)
 
 
+# --------------------------------------------
 def obter_stats(session):
     resultados = stats_por_coletanea(session)
 
@@ -26,3 +27,21 @@ def obter_stats(session):
     logger.info("Estatísticas calculadas!")
 
     return stats
+
+
+# --------------------------------------------
+def listar_faltantes(session, codigo_coletanea: str | None = None):
+    hinos = hinos_sem_letra(session, codigo_coletanea)
+
+    resultado = []
+
+    for h in hinos:
+        resultado.append(
+            {
+                "numero": h.numeracao,
+                "titulo": h.titulo,
+                "coletanea": h.coletanea.codigo,
+            }
+        )
+
+    return resultado

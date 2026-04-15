@@ -58,3 +58,15 @@ def stats_por_coletanea(session):
     )
 
     return session.exec(stmt)
+
+
+# --------------------------------------------
+def hinos_sem_letra(session, codigo_coletanea: str | None = None) -> list[Hino]:
+    stmt = select(Hino).where(Hino.letra.is_(None))
+
+    if codigo_coletanea:
+        stmt = stmt.join(Coletanea).where(Coletanea.codigo == codigo_coletanea)
+
+    stmt = stmt.order_by(Hino.numeracao)
+
+    return session.exec(stmt).all()

@@ -10,7 +10,7 @@ from louvores.db.database import engine, get_session
 from louvores.db.models import SQLModel
 from louvores.services.import_service import import_from_csv
 from louvores.services.slide_service import gerar_slides_hino
-from louvores.services.stats_service import obter_stats
+from louvores.services.stats_service import listar_faltantes, obter_stats
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -66,6 +66,37 @@ def stats():
         )
 
     console.print(table)
+
+
+# --------------------------------------------
+@app.command(short_help="Lista hinos sem letra cadastrada")
+def faltantes(
+    coletanea: str = typer.Option(None, help="Filtrar por coletânea"),
+):
+    with get_session() as session:
+        hinos = listar_faltantes(session, coletanea)
+
+    if not hinos:
+        console.print("[green]Nenhum hino faltante! 🎉[/green]")
+        return
+
+    table = Table(title="🎵 Hinos sem letra")
+
+    table.add_column("Número", justify="right")
+    table.add_column("Título")
+    table.add_column("Coletânea")
+
+    for h in hinos:
+        table.add_row(
+            str(h["numero"]),
+            h["titulo"],
+            h["coletanea"],
+        )
+
+    console.print(table)
+
+
+# --------------------------------------------
 
 
 if __name__ == "__main__":
