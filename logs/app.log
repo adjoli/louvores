@@ -1,2 +1,205 @@
 2026-03-31 19:04:23,976 | INFO | louvores.services.import_service | Importando dados...
 2026-03-31 19:04:24,875 | INFO | louvores.services.import_service | Importação concluída!
+2026-04-09 15:23:17,113 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-09 15:23:17,118 | INFO | src.louvores.cli.app | Slides gerados!
+2026-04-09 15:49:08,127 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-09 15:50:02,482 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-09 15:53:43,243 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-09 15:53:43,299 | INFO | src.louvores.cli.app | Slides gerados!
+2026-04-09 15:54:45,444 | INFO | src.louvores.cli.app | Gerando slide para hino 18 [VM] ...
+2026-04-09 15:54:45,504 | INFO | src.louvores.cli.app | Slides gerados!
+2026-04-09 15:55:51,309 | INFO | src.louvores.cli.app | Gerando slide para hino 18 [VM] ...
+2026-04-09 15:55:51,365 | INFO | src.louvores.cli.app | Slides gerados!
+2026-04-10 11:49:43,549 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-10 11:49:43,623 | INFO | louvores.services.slide_service | CC-007-MARAVILHAS DIVINAS.pptx criado em output\slides
+2026-04-10 11:50:07,751 | INFO | src.louvores.cli.app | Gerando slide para hino 18 [VM] ...
+2026-04-10 11:50:07,803 | INFO | louvores.services.slide_service | VM-018-VENHA ADORAR AO SENHOR.pptx criado em output\slides
+2026-04-10 11:54:30,804 | INFO | src.louvores.cli.app | Gerando slide para hino 1 [CC] ...
+2026-04-10 11:54:30,854 | INFO | louvores.services.slide_service | CC-001-ANTÍFONA.pptx criado em output\slides
+2026-04-10 11:54:40,640 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-10 11:54:40,702 | INFO | louvores.services.slide_service | CC-007-MARAVILHAS DIVINAS.pptx criado em output\slides
+2026-04-10 11:54:55,273 | INFO | src.louvores.cli.app | Gerando slide para hino 18 [VM] ...
+2026-04-10 11:54:55,330 | INFO | louvores.services.slide_service | VM-018-VENHA ADORAR AO SENHOR.pptx criado em output\slides
+2026-04-10 12:00:00,026 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-10 12:00:00,086 | INFO | louvores.services.slide_service | CC-007-MARAVILHAS DIVINAS.pptx criado em output\slides
+2026-04-10 12:00:33,927 | INFO | src.louvores.cli.app | Gerando slide para hino 18 [VM] ...
+2026-04-10 12:00:33,980 | INFO | louvores.services.slide_service | VM-018-VENHA ADORAR AO SENHOR.pptx criado em output\slides
+2026-04-14 10:57:51,346 | INFO | src.louvores.cli.app | Gerando slide para hino 227 [CC] ...
+2026-04-14 10:58:06,500 | INFO | src.louvores.cli.app | Gerando slide para hino 7 [CC] ...
+2026-04-14 10:58:06,568 | INFO | louvores.services.slide_service | CC-007-MARAVILHAS DIVINAS.pptx criado em output\slides
+2026-04-14 11:00:25,456 | INFO | src.louvores.cli.app | Gerando slide para hino 227 [CC] ...
+2026-04-14 11:00:25,546 | INFO | louvores.services.slide_service | CC-227-DESPERTADO CORAÇÃO.pptx criado em output\slides
+2026-04-14 11:01:24,377 | INFO | src.louvores.cli.app | Gerando slide para hino 227 [CC] ...
+2026-04-14 11:01:24,465 | INFO | louvores.services.slide_service | CC-227-DESPERTADO CORAÇÃO.pptx criado em output\slides
+2026-04-14 11:02:36,319 | INFO | src.louvores.cli.app | Gerando slide para hino 18 [VM] ...
+2026-04-14 11:02:36,396 | INFO | louvores.services.slide_service | VM-018-VENHA ADORAR AO SENHOR.pptx criado em output\slides
+2026-04-14 18:44:57,663 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 18:44:57,668 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 18:44:57,668 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 18:44:57,668 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 18:44:57,668 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 18:45:19,030 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 18:50:31,039 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 19:02:35,143 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 19:32:08,555 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 19:32:21,269 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 19:33:06,238 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 20:27:49,259 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 20:35:40,479 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 20:42:47,144 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 21:53:09,062 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 21:53:29,235 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-04-14 21:53:29,267 | INFO | louvores.services.import_service | Já possui letra: CC-001
+2026-04-14 21:53:29,270 | INFO | louvores.services.import_service | Já possui letra: CC-002
+2026-04-14 21:53:29,285 | INFO | louvores.services.import_service | Já possui letra: CC-005
+2026-04-14 21:53:29,289 | INFO | louvores.services.import_service | Já possui letra: CC-007
+2026-04-14 21:53:29,301 | INFO | louvores.services.import_service | Já possui letra: CC-227
+2026-04-14 21:53:29,312 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-04-14 21:53:29,329 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-04-14 21:53:29,335 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-04-14 21:53:29,342 | INFO | louvores.services.import_service | Já possui letra: VM-018
+2026-04-14 21:53:29,345 | INFO | louvores.services.import_service | Importação concluída!
+2026-04-14 21:53:29,346 | INFO | louvores.services.import_service | total_atualizados: 17
+2026-04-14 21:53:29,347 | INFO | louvores.services.import_service | total_ignorados: 6
+2026-04-14 21:53:29,348 | INFO | louvores.services.import_service | total_nao_encontrados: 0
+2026-04-14 21:53:59,723 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 22:02:05,892 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 22:02:16,567 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-04-14 22:02:16,592 | INFO | louvores.services.import_service | Já possui letra: CC-001
+2026-04-14 22:02:16,596 | INFO | louvores.services.import_service | Já possui letra: CC-002
+2026-04-14 22:02:16,687 | INFO | louvores.services.import_service | Letra do hino CC-003 carregada!
+2026-04-14 22:02:16,712 | INFO | louvores.services.import_service | Letra do hino CC-004 carregada!
+2026-04-14 22:02:16,715 | INFO | louvores.services.import_service | Já possui letra: CC-005
+2026-04-14 22:02:16,752 | INFO | louvores.services.import_service | Letra do hino CC-006 carregada!
+2026-04-14 22:02:16,756 | INFO | louvores.services.import_service | Já possui letra: CC-007
+2026-04-14 22:02:16,777 | INFO | louvores.services.import_service | Letra do hino CC-008 carregada!
+2026-04-14 22:02:16,797 | INFO | louvores.services.import_service | Letra do hino CC-009 carregada!
+2026-04-14 22:02:16,817 | INFO | louvores.services.import_service | Letra do hino CC-010 carregada!
+2026-04-14 22:02:16,820 | INFO | louvores.services.import_service | Já possui letra: CC-227
+2026-04-14 22:02:16,847 | INFO | louvores.services.import_service | Letra do hino CC-579 carregada!
+2026-04-14 22:02:16,873 | INFO | louvores.services.import_service | Letra do hino CC-013 carregada!
+2026-04-14 22:02:16,897 | INFO | louvores.services.import_service | Letra do hino CC-123 carregada!
+2026-04-14 22:02:16,923 | INFO | louvores.services.import_service | Letra do hino CC-168 carregada!
+2026-04-14 22:02:16,924 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-04-14 22:02:16,947 | INFO | louvores.services.import_service | Letra do hino HCC-001 carregada!
+2026-04-14 22:02:16,972 | INFO | louvores.services.import_service | Letra do hino HCC-002 carregada!
+2026-04-14 22:02:16,997 | INFO | louvores.services.import_service | Letra do hino HCC-004 carregada!
+2026-04-14 22:02:17,022 | INFO | louvores.services.import_service | Letra do hino HCC-006 carregada!
+2026-04-14 22:02:17,047 | INFO | louvores.services.import_service | Letra do hino HCC-008 carregada!
+2026-04-14 22:02:17,048 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-04-14 22:02:17,073 | INFO | louvores.services.import_service | Letra do hino HL-002 carregada!
+2026-04-14 22:02:17,073 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-04-14 22:02:17,078 | INFO | louvores.services.import_service | Já possui letra: VM-018
+2026-04-14 22:02:17,103 | INFO | louvores.services.import_service | Letra do hino VM-102 carregada!
+2026-04-14 22:02:17,103 | INFO | louvores.services.import_service | Importação concluída!
+2026-04-14 22:02:17,104 | INFO | louvores.services.import_service | total_atualizados: 17
+2026-04-14 22:02:17,105 | INFO | louvores.services.import_service | total_ignorados: 6
+2026-04-14 22:02:17,105 | INFO | louvores.services.import_service | total_nao_encontrados: 0
+2026-04-14 22:03:16,124 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 22:03:25,719 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-04-14 22:03:25,746 | INFO | louvores.services.import_service | Já possui letra: CC-001
+2026-04-14 22:03:25,750 | INFO | louvores.services.import_service | Já possui letra: CC-002
+2026-04-14 22:03:25,753 | INFO | louvores.services.import_service | Já possui letra: CC-003
+2026-04-14 22:03:25,756 | INFO | louvores.services.import_service | Já possui letra: CC-004
+2026-04-14 22:03:25,761 | INFO | louvores.services.import_service | Já possui letra: CC-005
+2026-04-14 22:03:25,765 | INFO | louvores.services.import_service | Já possui letra: CC-006
+2026-04-14 22:03:25,768 | INFO | louvores.services.import_service | Já possui letra: CC-007
+2026-04-14 22:03:25,771 | INFO | louvores.services.import_service | Já possui letra: CC-008
+2026-04-14 22:03:25,774 | INFO | louvores.services.import_service | Já possui letra: CC-009
+2026-04-14 22:03:25,776 | INFO | louvores.services.import_service | Já possui letra: CC-010
+2026-04-14 22:03:25,779 | INFO | louvores.services.import_service | Já possui letra: CC-227
+2026-04-14 22:03:25,782 | INFO | louvores.services.import_service | Já possui letra: CC-579
+2026-04-14 22:03:25,784 | INFO | louvores.services.import_service | Já possui letra: CC-013
+2026-04-14 22:03:25,788 | INFO | louvores.services.import_service | Já possui letra: CC-123
+2026-04-14 22:03:25,792 | INFO | louvores.services.import_service | Já possui letra: CC-168
+2026-04-14 22:03:25,793 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-04-14 22:03:25,799 | INFO | louvores.services.import_service | Já possui letra: HCC-001
+2026-04-14 22:03:25,801 | INFO | louvores.services.import_service | Já possui letra: HCC-002
+2026-04-14 22:03:25,803 | INFO | louvores.services.import_service | Já possui letra: HCC-004
+2026-04-14 22:03:25,806 | INFO | louvores.services.import_service | Já possui letra: HCC-006
+2026-04-14 22:03:25,809 | INFO | louvores.services.import_service | Já possui letra: HCC-008
+2026-04-14 22:03:25,810 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-04-14 22:03:25,814 | INFO | louvores.services.import_service | Já possui letra: HL-002
+2026-04-14 22:03:25,815 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-04-14 22:03:25,821 | INFO | louvores.services.import_service | Já possui letra: VM-018
+2026-04-14 22:03:25,824 | INFO | louvores.services.import_service | Já possui letra: VM-102
+2026-04-14 22:03:25,825 | INFO | louvores.services.import_service | Importação concluída!
+2026-04-14 22:03:25,825 | INFO | louvores.services.import_service | total_atualizados: 0
+2026-04-14 22:03:25,826 | INFO | louvores.services.import_service | total_ignorados: 23
+2026-04-14 22:03:25,826 | INFO | louvores.services.import_service | total_nao_encontrados: 0
+2026-04-14 22:33:15,425 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 22:36:26,552 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 22:36:42,452 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-04-14 22:36:42,483 | INFO | louvores.services.import_service | Letra do hino CC-001 carregada!
+2026-04-14 22:36:42,503 | INFO | louvores.services.import_service | Letra do hino CC-002 carregada!
+2026-04-14 22:36:42,522 | INFO | louvores.services.import_service | Letra do hino CC-003 carregada!
+2026-04-14 22:36:42,543 | INFO | louvores.services.import_service | Letra do hino CC-004 carregada!
+2026-04-14 22:36:42,562 | INFO | louvores.services.import_service | Letra do hino CC-005 carregada!
+2026-04-14 22:36:42,583 | INFO | louvores.services.import_service | Letra do hino CC-006 carregada!
+2026-04-14 22:36:42,602 | INFO | louvores.services.import_service | Letra do hino CC-007 carregada!
+2026-04-14 22:36:42,622 | INFO | louvores.services.import_service | Letra do hino CC-008 carregada!
+2026-04-14 22:36:42,643 | INFO | louvores.services.import_service | Letra do hino CC-009 carregada!
+2026-04-14 22:36:42,662 | INFO | louvores.services.import_service | Letra do hino CC-010 carregada!
+2026-04-14 22:36:42,684 | INFO | louvores.services.import_service | Letra do hino CC-227 carregada!
+2026-04-14 22:36:42,708 | INFO | louvores.services.import_service | Letra do hino CC-579 carregada!
+2026-04-14 22:36:42,728 | INFO | louvores.services.import_service | Letra do hino CC-013 carregada!
+2026-04-14 22:36:42,744 | INFO | louvores.services.import_service | Letra do hino CC-123 carregada!
+2026-04-14 22:36:42,763 | INFO | louvores.services.import_service | Letra do hino CC-168 carregada!
+2026-04-14 22:36:42,763 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-04-14 22:36:42,783 | INFO | louvores.services.import_service | Letra do hino HCC-001 carregada!
+2026-04-14 22:36:42,802 | INFO | louvores.services.import_service | Letra do hino HCC-002 carregada!
+2026-04-14 22:36:42,823 | INFO | louvores.services.import_service | Letra do hino HCC-004 carregada!
+2026-04-14 22:36:42,842 | INFO | louvores.services.import_service | Letra do hino HCC-006 carregada!
+2026-04-14 22:36:42,863 | INFO | louvores.services.import_service | Letra do hino HCC-008 carregada!
+2026-04-14 22:36:42,864 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-04-14 22:36:42,883 | INFO | louvores.services.import_service | Letra do hino HL-002 carregada!
+2026-04-14 22:36:42,883 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-04-14 22:36:42,897 | INFO | louvores.services.import_service | Letra do hino VM-018 carregada!
+2026-04-14 22:36:42,917 | INFO | louvores.services.import_service | Letra do hino VM-102 carregada!
+2026-04-14 22:36:42,918 | INFO | louvores.services.import_service | Importação concluída!
+2026-04-14 22:36:42,918 | INFO | louvores.services.import_service | total_atualizados: 23
+2026-04-14 22:36:42,919 | INFO | louvores.services.import_service | total_ignorados: 0
+2026-04-14 22:36:42,919 | INFO | louvores.services.import_service | total_nao_encontrados: 0
+2026-04-14 22:37:13,479 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-14 22:38:50,303 | INFO | src.louvores.cli.app | Gerando slide para hino 123 [CC] ...
+2026-04-14 22:38:50,373 | INFO | louvores.services.slide_service | CC-123-BENDITO CORDEIRO.pptx criado em output\slides
+2026-04-14 22:38:57,206 | INFO | src.louvores.cli.app | Gerando slide para hino 168 [CC] ...
+2026-04-14 22:38:57,279 | INFO | louvores.services.slide_service | CC-168-CHUVAS DE BÊNÇÃOS.pptx criado em output\slides
+2026-04-14 22:41:47,073 | INFO | src.louvores.cli.app | Gerando slide para hino 579 [CC] ...
+2026-04-14 22:41:47,141 | INFO | louvores.services.slide_service | CC-579-OLHANDO PARA CRISTO.pptx criado em output\slides
+2026-04-19 17:12:47,331 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-20 10:04:43,831 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-04-20 10:05:28,261 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-04-20 10:05:28,277 | INFO | louvores.services.import_service | Já possui letra: CC-001
+2026-04-20 10:05:28,279 | INFO | louvores.services.import_service | Já possui letra: CC-002
+2026-04-20 10:05:28,281 | INFO | louvores.services.import_service | Já possui letra: CC-003
+2026-04-20 10:05:28,282 | INFO | louvores.services.import_service | Já possui letra: CC-004
+2026-04-20 10:05:28,283 | INFO | louvores.services.import_service | Já possui letra: CC-005
+2026-04-20 10:05:28,285 | INFO | louvores.services.import_service | Já possui letra: CC-006
+2026-04-20 10:05:28,287 | INFO | louvores.services.import_service | Já possui letra: CC-007
+2026-04-20 10:05:28,288 | INFO | louvores.services.import_service | Já possui letra: CC-008
+2026-04-20 10:05:28,290 | INFO | louvores.services.import_service | Já possui letra: CC-009
+2026-04-20 10:05:28,291 | INFO | louvores.services.import_service | Já possui letra: CC-010
+2026-04-20 10:05:28,291 | INFO | louvores.services.import_service | Já possui letra: CC-227
+2026-04-20 10:05:28,292 | INFO | louvores.services.import_service | Já possui letra: CC-579
+2026-04-20 10:05:28,293 | INFO | louvores.services.import_service | Já possui letra: CC-013
+2026-04-20 10:05:28,294 | INFO | louvores.services.import_service | Já possui letra: CC-123
+2026-04-20 10:05:28,295 | INFO | louvores.services.import_service | Já possui letra: CC-168
+2026-04-20 10:05:28,317 | INFO | louvores.services.import_service | Letra do hino CC-046 carregada!
+2026-04-20 10:05:28,338 | INFO | louvores.services.import_service | Letra do hino CC-328 carregada!
+2026-04-20 10:05:28,339 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-04-20 10:05:28,343 | INFO | louvores.services.import_service | Já possui letra: HCC-001
+2026-04-20 10:05:28,344 | INFO | louvores.services.import_service | Já possui letra: HCC-002
+2026-04-20 10:05:28,345 | INFO | louvores.services.import_service | Já possui letra: HCC-004
+2026-04-20 10:05:28,347 | INFO | louvores.services.import_service | Já possui letra: HCC-006
+2026-04-20 10:05:28,349 | INFO | louvores.services.import_service | Já possui letra: HCC-008
+2026-04-20 10:05:28,349 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-04-20 10:05:28,355 | INFO | louvores.services.import_service | Já possui letra: HL-002
+2026-04-20 10:05:28,355 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-04-20 10:05:28,360 | INFO | louvores.services.import_service | Já possui letra: VM-018
+2026-04-20 10:05:28,361 | INFO | louvores.services.import_service | Já possui letra: VM-102
+2026-04-20 10:05:28,361 | INFO | louvores.services.import_service | Importação concluída!
+2026-04-20 10:05:28,361 | INFO | louvores.services.import_service | total_atualizados: 2
+2026-04-20 10:05:28,362 | INFO | louvores.services.import_service | total_ignorados: 23
+2026-04-20 10:05:28,362 | INFO | louvores.services.import_service | total_nao_encontrados: 0
+2026-04-20 10:05:37,659 | INFO | louvores.services.stats_service | Estatísticas calculadas!

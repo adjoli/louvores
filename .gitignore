@@ -9,9 +9,12 @@ wheels/
 # Virtual environments
 .venv
 .vscode
+scripts
 
 # Arquivos de apoio ao projeto
 *data/raw/ppt
 *.db
+*.zip
 *output
-*logs
+*logs/
+.env
