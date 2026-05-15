@@ -108,3 +108,7 @@ Consulte o arquivo `LICENSE` para mais detalhes.
 ---
 
 💡 *Dica: mantenha o banco de dados atualizado para garantir que novos hinos estejam sempre disponíveis para geração automática de slides.*
+
+
+
+<!-- $env:PYTHONPATH = "$env:PYTHONPATH;C:\Users\N2SE\OneDrive - TRANSPETRO\Documentos\Projetos\sap_automation\src" -->

@@ -77,3 +77,10 @@ def atualizar_letra_hino(session, id_hino: int, letra_hino: str) -> None:
     hino = session.get(Hino, id_hino)
     hino.letra = letra_hino
     session.commit()
+
+
+# --------------------------------------------
+def atualizar_revisao_hino(session, id_hino: int) -> None:
+    hino = session.get(Hino, id_hino)
+    hino.revisado = True
+    session.commit()

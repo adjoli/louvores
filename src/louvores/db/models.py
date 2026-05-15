@@ -17,5 +17,6 @@ class Hino(SQLModel, table=True):
     titulo: str
     letra: str | None = Field(sa_column=Column(Text), default=None)
     creditos: str | None = Field(default=None)
+    revisado: bool = Field(default=False)
 
     coletanea: Coletanea = Relationship(back_populates="hinos")

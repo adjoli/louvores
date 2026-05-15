@@ -3,6 +3,7 @@ from pathlib import Path
 
 import typer
 from rich.console import Console
+from rich.panel import Panel
 from rich.table import Table
 
 from louvores.core.config import CSV_PATH, ZIP_DIR
@@ -10,6 +11,7 @@ from louvores.core.logging_config import setup_logging
 from louvores.db.database import engine, get_session
 from louvores.db.models import SQLModel
 from louvores.services.import_service import import_from_csv, importar_letras_zip
+from louvores.services.revisao_service import aprovar_hino, buscar_hino
 from louvores.services.slide_service import gerar_slides_hino
 from louvores.services.stats_service import listar_faltantes, obter_stats
 
@@ -107,12 +109,40 @@ def importar_letras(
 
 
 # --------------------------------------------
+@app.command(short_help="Revisar letra de um hino e marcar como aprovado")
+def revisar(numeracao: int, coletanea: str):
+    with get_session() as session:
+        hino = buscar_hino(session, numeracao, coletanea)
+
+        if not hino.letra:
+            logger.warning(f"Hino {numeracao} não possui letra para revisar.")
+            console.print("[yellow]Hino não possui letra para revisar.[/yellow]")
+            raise typer.Exit(1)
+
+        status_revisao = "[green]Sim[/green]" if hino.revisado else "[red]Não[/red]"
+
+        console.print(
+            Panel(
+                f"[bold]Título:[/bold] {hino.titulo}\n"
+                f"[bold]Número:[/bold] {hino.numeracao}\n"
+                f"[bold]Coletânea:[/bold] {hino.coletanea.codigo} — {hino.coletanea.titulo}\n"
+                f"[bold]Créditos:[/bold] {hino.creditos or '—'}\n"
+                f"[bold]Revisado:[/bold] {status_revisao}\n\n"
+                f"[bold]--- Letra ---[/bold]\n{hino.letra}",
+                title="Revisão de Hino",
+            )
+        )
+
+        if typer.confirm("Aprovar conteúdo?"):
+            aprovar_hino(session, hino.id)
+            logger.info(f"Hino {numeracao} [{coletanea}] marcado como revisado.")
+            console.print("[green]Hino aprovado e marcado como revisado![/green]")
+        else:
+            console.print("[yellow]Operação cancelada.[/yellow]")
+
+
+# --------------------------------------------
 
 
 if __name__ == "__main__":
     app()
-
-# Exportar variável de ambiente
-# $env:PYTHONPATH = "$env:PYTHONPATH;C:\Users\N2SE\OneDrive - TRANSPETRO\Documentos\Projetos\louvores\src"
-
-# uv pip install -e .

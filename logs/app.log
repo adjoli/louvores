@@ -203,3 +203,4 @@
 2026-04-20 10:05:28,362 | INFO | louvores.services.import_service | total_ignorados: 23
 2026-04-20 10:05:28,362 | INFO | louvores.services.import_service | total_nao_encontrados: 0
 2026-04-20 10:05:37,659 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-05-11 11:27:07,020 | INFO | louvores.services.stats_service | Estatísticas calculadas!
