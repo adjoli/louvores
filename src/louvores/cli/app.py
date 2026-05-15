@@ -57,6 +57,8 @@ def stats():
     table.add_column("Código")
     table.add_column("Total", justify="right")
     table.add_column("Com Letra", justify="right")
+    table.add_column("Revisados", justify="right")
+    table.add_column("Não Rev.", justify="right")
     table.add_column("%", justify="right")
 
     for item in resultados:
@@ -65,6 +67,8 @@ def stats():
             item["codigo"],
             str(item["total"]),
             str(item["com_letra"]),
+            str(item["revisados"]),
+            str(item["nao_revisados"]),
             f"{item['percentual']:.1f}%",
         )
 

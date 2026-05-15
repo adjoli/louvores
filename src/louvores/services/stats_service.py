@@ -11,7 +11,8 @@ def obter_stats(session):
 
     stats = []
 
-    for codigo, titulo, total, com_letra in resultados:
+    for codigo, titulo, total, com_letra, revisados in resultados:
+        nao_revisados = com_letra - (revisados or 0)
         percentual = (com_letra / total * 100) if total > 0 else 0
 
         stats.append(
@@ -20,6 +21,8 @@ def obter_stats(session):
                 "titulo": titulo,
                 "total": total,
                 "com_letra": com_letra,
+                "revisados": revisados or 0,
+                "nao_revisados": nao_revisados,
                 "percentual": percentual,
             }
         )

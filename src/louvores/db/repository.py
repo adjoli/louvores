@@ -1,4 +1,4 @@
-from sqlmodel import func, select
+from sqlmodel import Integer, func, select
 
 from louvores.db.models import Coletanea, Hino
 
@@ -50,7 +50,8 @@ def stats_por_coletanea(session):
             Coletanea.codigo,
             Coletanea.titulo,
             func.count(Hino.id).label("total"),
-            func.count(Hino.letra).label("com_letra"),  # Conta apenas linhas NOT NULL
+            func.count(Hino.letra).label("com_letra"),
+            func.sum(func.cast(Hino.revisado, Integer)).label("revisados"),
         )
         .join(Hino)
         .group_by(Coletanea.id)
