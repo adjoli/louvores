@@ -12,8 +12,7 @@ from louvores.db.repository import (
 def test_cria_coletanea(session, coletanea_factory):
     coletanea = coletanea_factory(titulo="Coletânea XYZ")
 
-    session.add(coletanea)
-    session.commit()
+    coletanea.save()
 
     assert coletanea.id is not None
     assert coletanea.codigo == "XYZ"
@@ -24,10 +23,9 @@ def test_cria_coletanea(session, coletanea_factory):
 def test_busca_coletanea_por_codigo(session, coletanea_factory):
     coletanea = coletanea_factory()
 
-    session.add(coletanea)
-    session.commit()
+    coletanea.save()
 
-    resultado = coletanea_por_codigo(session, "XYZ")
+    resultado = coletanea_por_codigo("XYZ")
 
     assert resultado.id is not None
     assert resultado.titulo == "Coletânea PADRÃO"
@@ -37,20 +35,20 @@ def test_busca_coletanea_por_codigo(session, coletanea_factory):
 def test_listar_coletaneas(session, coletanea_factory):
     coletanea = coletanea_factory()
 
-    session.add(coletanea)
-    session.commit()
+    coletanea.save()
 
-    resultado = listar_coletaneas(session)
+    resultado = listar_coletaneas()
     assert len(resultado) > 0
 
 
 # --------------------------------------------
 def test_cria_hino(session, coletanea_factory, hino_factory):
     hino = hino_factory()
-    hino.coletanea = coletanea_factory()
+    coletanea = coletanea_factory()
 
-    session.add(hino)
-    session.commit()
+    coletanea.save()
+    hino.coletanea = coletanea
+    hino.save()
 
     assert hino.id is not None
     assert hino.titulo == "Hino PADRÃO"
@@ -59,12 +57,13 @@ def test_cria_hino(session, coletanea_factory, hino_factory):
 # --------------------------------------------
 def test_busca_hino_por_numero(session, coletanea_factory, hino_factory):
     hino = hino_factory(numeracao=42, titulo="Especial")
-    hino.coletanea = coletanea_factory()
+    coletanea = coletanea_factory()
 
-    session.add(hino)
-    session.commit()
+    coletanea.save()
+    hino.coletanea = coletanea
+    hino.save()
 
-    resultado = hino_por_numero(session, 42, "XYZ")
+    resultado = hino_por_numero(42, "XYZ")
 
     assert resultado.titulo == "Especial"
 
@@ -82,14 +81,19 @@ def test_busca_hinos_por_coletanea(session, coletanea_factory, hino_factory):
         hino_factory(numeracao=5),
     ]
 
-    c1.hinos.extend(hinos_c1)
-    c2.hinos.extend(hinos_c2)
+    c1.save()
+    c2.save()
 
-    session.add_all([c1, c2])
-    session.commit()
+    for h in hinos_c1:
+        h.coletanea = c1
+        h.save()
 
-    assert len(hinos_por_coletanea(session, "ABC")) == 2
-    assert len(hinos_por_coletanea(session, "DEF")) == 3
+    for h in hinos_c2:
+        h.coletanea = c2
+        h.save()
+
+    assert len(hinos_por_coletanea("ABC")) == 2
+    assert len(hinos_por_coletanea("DEF")) == 3
 
     # Aproveitando os hinos criados para testar a função "listar_hinos()"
-    assert len(listar_hinos(session)) == 5  # total de hinos criados
+    assert len(listar_hinos()) == 5  # total de hinos criados

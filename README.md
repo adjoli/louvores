@@ -112,3 +112,4 @@ Consulte o arquivo `LICENSE` para mais detalhes.
 
 
 <!-- $env:PYTHONPATH = "$env:PYTHONPATH;C:\Users\N2SE\OneDrive - TRANSPETRO\Documentos\Projetos\sap_automation\src" -->
+<!-- uv pip install -e . -->

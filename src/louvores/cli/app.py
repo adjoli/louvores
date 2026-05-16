@@ -8,8 +8,8 @@ from rich.table import Table
 
 from louvores.core.config import CSV_PATH, ZIP_DIR
 from louvores.core.logging_config import setup_logging
-from louvores.db.database import engine, get_session
-from louvores.db.models import SQLModel
+from louvores.db.database import db
+from louvores.db.models import Coletanea, Hino
 from louvores.services.import_service import import_from_csv, importar_letras_zip
 from louvores.services.revisao_service import aprovar_hino, buscar_hino
 from louvores.services.slide_service import gerar_slides_hino
@@ -23,33 +23,27 @@ console = Console()
 
 
 # --------------------------------------------
-@app.command(short_help="Criar tabelas no Banco de Dados")
-def init_db():
-    logger.info("Inicializando o banco de dados...")
-    SQLModel.metadata.create_all(bind=engine)
-    logger.info("Banco de dados inicializado com sucesso.")
-
-
-# --------------------------------------------
-@app.command(short_help="Carregar dados a partir de arquivos .CSV")
-def import_csv():
-    with get_session() as session:
-        import_from_csv(session, CSV_PATH)
+@app.command(short_help="Cria tabelas e importa dados do CSV")
+def initdb():
+    logger.info("Inicializando banco de dados...")
+    db.connect()
+    db.create_tables([Coletanea, Hino])
+    logger.info("Importando dados do CSV...")
+    import_from_csv(CSV_PATH)
+    logger.info("Setup concluído!")
 
 
 # --------------------------------------------
 @app.command(short_help="Gera slides para um hino específico")
 def gerar(numeracao: int, coletanea: str, template: str = "default"):
     logger.info(f"Gerando slide para hino {numeracao} [{coletanea}] ...")
-    with get_session() as session:
-        gerar_slides_hino(session, numeracao, coletanea, template)
+    gerar_slides_hino(numeracao, coletanea, template)
 
 
 # --------------------------------------------
 @app.command(short_help="Exibe estatísticas de hinos por coletânea")
 def stats():
-    with get_session() as session:
-        resultados = obter_stats(session)
+    resultados = obter_stats()
 
     table = Table(title="Estatísticas de Hinos")
 
@@ -80,8 +74,7 @@ def stats():
 def faltantes(
     coletanea: str = typer.Option(None, help="Filtrar por coletânea"),
 ):
-    with get_session() as session:
-        hinos = listar_faltantes(session, coletanea)
+    hinos = listar_faltantes(coletanea)
 
     if not hinos:
         console.print("[green]Nenhum hino faltante! 🎉[/green]")
@@ -108,41 +101,39 @@ def faltantes(
 def importar_letras(
     caminho: Path = typer.Option(ZIP_DIR, help="Pasta com arquivos .zip"),
 ):
-    with get_session() as session:
-        importar_letras_zip(session, caminho)
+    importar_letras_zip(caminho)
 
 
 # --------------------------------------------
 @app.command(short_help="Revisar letra de um hino e marcar como aprovado")
 def revisar(numeracao: int, coletanea: str):
-    with get_session() as session:
-        hino = buscar_hino(session, numeracao, coletanea)
+    hino = buscar_hino(numeracao, coletanea)
 
-        if not hino.letra:
-            logger.warning(f"Hino {numeracao} não possui letra para revisar.")
-            console.print("[yellow]Hino não possui letra para revisar.[/yellow]")
-            raise typer.Exit(1)
+    if not hino.letra:
+        logger.warning(f"Hino {numeracao} não possui letra para revisar.")
+        console.print("[yellow]Hino não possui letra para revisar.[/yellow]")
+        raise typer.Exit(1)
 
-        status_revisao = "[green]Sim[/green]" if hino.revisado else "[red]Não[/red]"
+    status_revisao = "[green]Sim[/green]" if hino.revisado else "[red]Não[/red]"
 
-        console.print(
-            Panel(
-                f"[bold]Título:[/bold] {hino.titulo}\n"
-                f"[bold]Número:[/bold] {hino.numeracao}\n"
-                f"[bold]Coletânea:[/bold] {hino.coletanea.codigo} — {hino.coletanea.titulo}\n"
-                f"[bold]Créditos:[/bold] {hino.creditos or '—'}\n"
-                f"[bold]Revisado:[/bold] {status_revisao}\n\n"
-                f"[bold]--- Letra ---[/bold]\n{hino.letra}",
-                title="Revisão de Hino",
-            )
+    console.print(
+        Panel(
+            f"[bold]Título:[/bold] {hino.titulo}\n"
+            f"[bold]Número:[/bold] {hino.numeracao}\n"
+            f"[bold]Coletânea:[/bold] {hino.coletanea.codigo} — {hino.coletanea.titulo}\n"
+            f"[bold]Créditos:[/bold] {hino.creditos or '—'}\n"
+            f"[bold]Revisado:[/bold] {status_revisao}\n\n"
+            f"[bold]--- Letra ---[/bold]\n{hino.letra}",
+            title="Revisão de Hino",
         )
+    )
 
-        if typer.confirm("Aprovar conteúdo?"):
-            aprovar_hino(session, hino.id)
-            logger.info(f"Hino {numeracao} [{coletanea}] marcado como revisado.")
-            console.print("[green]Hino aprovado e marcado como revisado![/green]")
-        else:
-            console.print("[yellow]Operação cancelada.[/yellow]")
+    if typer.confirm("Aprovar conteúdo?"):
+        aprovar_hino(hino.id)
+        logger.info(f"Hino {numeracao} [{coletanea}] marcado como revisado.")
+        console.print("[green]Hino aprovado e marcado como revisado![/green]")
+    else:
+        console.print("[yellow]Operação cancelada.[/yellow]")
 
 
 # --------------------------------------------

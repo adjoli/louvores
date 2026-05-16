@@ -1,87 +1,82 @@
-from sqlmodel import Integer, func, select
+from peewee import fn
 
 from louvores.db.models import Coletanea, Hino
 
 
 # --------------------------------------------
-def coletanea_por_codigo(session, codigo: str) -> Coletanea | None:
-    stmt = select(Coletanea).where(Coletanea.codigo == codigo)
-    return session.exec(stmt).one_or_none()
+def coletanea_por_codigo(codigo: str) -> Coletanea | None:
+    return Coletanea.get_or_none(Coletanea.codigo == codigo)
 
 
 # --------------------------------------------
-def listar_coletaneas(session) -> list[Coletanea]:
-    stmt = select(Coletanea).order_by(Coletanea.id)
-    return session.exec(stmt).all()
+def listar_coletaneas() -> list[Coletanea]:
+    return list(Coletanea.select().order_by(Coletanea.id))
 
 
 # --------------------------------------------
-def hino_por_numero(session, numero: int, coletanea: str) -> Hino | None:
-    stmt = (
-        select(Hino)
+def hino_por_numero(numero: int, codigo_coletanea: str) -> Hino | None:
+    return (
+        Hino.select()
         .join(Coletanea)
         .where(Hino.numeracao == numero)
-        .where(Coletanea.codigo == coletanea)
+        .where(Coletanea.codigo == codigo_coletanea)
+        .first()
     )
-    return session.exec(stmt).one_or_none()
 
 
 # --------------------------------------------
-def hinos_por_coletanea(session, codigo_coletanea: str) -> list[Hino]:
-    stmt = (
-        select(Hino)
+def hinos_por_coletanea(codigo_coletanea: str) -> list[Hino]:
+    return list(
+        Hino.select()
         .join(Coletanea)
         .where(Coletanea.codigo == codigo_coletanea)
         .order_by(Hino.numeracao)
     )
-    return session.exec(stmt).all()
 
 
 # --------------------------------------------
-def listar_hinos(session) -> list[Hino]:
-    stmt = select(Hino).order_by(Hino.numeracao)
-    return session.exec(stmt).all()
+def listar_hinos() -> list[Hino]:
+    return list(Hino.select().order_by(Hino.numeracao))
 
 
 # --------------------------------------------
-def stats_por_coletanea(session):
-    stmt = (
-        select(
+def stats_por_coletanea():
+    return (
+        Coletanea.select(
             Coletanea.codigo,
             Coletanea.titulo,
-            func.count(Hino.id).label("total"),
-            func.count(Hino.letra).label("com_letra"),
-            func.sum(func.cast(Hino.revisado, Integer)).label("revisados"),
+            fn.COUNT(Hino.id).alias("total"),
+            fn.COUNT(Hino.letra).alias("com_letra"),
+            fn.SUM(Hino.revisado.cast("INTEGER")).alias("revisados"),
         )
         .join(Hino)
         .group_by(Coletanea.id)
         .order_by(Coletanea.codigo)
+        .tuples()
     )
 
-    return session.exec(stmt)
-
 
 # --------------------------------------------
-def hinos_sem_letra(session, codigo_coletanea: str | None = None) -> list[Hino]:
-    stmt = select(Hino).where(Hino.letra.is_(None))
+def hinos_sem_letra(codigo_coletanea: str | None = None) -> list[Hino]:
+    query = Hino.select().where(Hino.letra.is_null(True))
 
     if codigo_coletanea:
-        stmt = stmt.join(Coletanea).where(Coletanea.codigo == codigo_coletanea)
+        query = query.join(Coletanea).where(Coletanea.codigo == codigo_coletanea)
 
-    stmt = stmt.order_by(Hino.numeracao)
+    query = query.order_by(Hino.coletanea_id, Hino.numeracao)
 
-    return session.exec(stmt).all()
+    return list(query)
 
 
 # --------------------------------------------
-def atualizar_letra_hino(session, id_hino: int, letra_hino: str) -> None:
-    hino = session.get(Hino, id_hino)
+def atualizar_letra_hino(id_hino: int, letra_hino: str) -> None:
+    hino = Hino.get_by_id(id_hino)
     hino.letra = letra_hino
-    session.commit()
+    hino.save()
 
 
 # --------------------------------------------
-def atualizar_revisao_hino(session, id_hino: int) -> None:
-    hino = session.get(Hino, id_hino)
+def atualizar_revisao_hino(id_hino: int) -> None:
+    hino = Hino.get_by_id(id_hino)
     hino.revisado = True
-    session.commit()
+    hino.save()

@@ -1,19 +1,19 @@
 import pytest
-from sqlmodel import Session, SQLModel, create_engine
 
 from louvores.core.config import TEMPLATE_DIR
+from louvores.db.database import db
 from louvores.db.models import Coletanea, Hino
 
 
 # ----------------------------------------
 @pytest.fixture
 def session():
-    engine = create_engine("sqlite:///:memory:")
-
-    SQLModel.metadata.create_all(engine)
-
-    with Session(engine) as session:
-        yield session
+    db.init(":memory:")
+    db.connect()
+    db.create_tables([Coletanea, Hino])
+    yield
+    db.drop_tables([Coletanea, Hino])
+    db.close()
 
 
 # ----------------------------------------

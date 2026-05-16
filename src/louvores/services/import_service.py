@@ -3,6 +3,7 @@ import logging
 import zipfile
 from pathlib import Path
 
+from louvores.db.database import db
 from louvores.db.models import Coletanea, Hino
 from louvores.db.repository import atualizar_letra_hino, hino_por_numero
 
@@ -10,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 # --------------------------------------------
-def import_from_csv(session, path: Path):
+def import_from_csv(path: Path):
     logger.info(f"Importando dados de {path}")
 
     coletaneas: dict[str, Coletanea] = {}
@@ -30,23 +31,21 @@ def import_from_csv(session, path: Path):
                 hino = Hino(**dados_hino)
 
                 if codigo_coletanea not in coletaneas:
-                    coletanea = Coletanea(
+                    coletanea = Coletanea.create(
                         codigo=codigo_coletanea, titulo=titulo_coletanea
                     )
-                    session.add(coletanea)
                     coletaneas[codigo_coletanea] = coletanea
 
-                coletaneas[codigo_coletanea].hinos.append(hino)
+                hino.coletanea = coletaneas[codigo_coletanea]
+                hino.save()
             except Exception as e:
                 logger.error(f"Erro na linha {i}: {e}")
-
-            session.commit()
 
     logger.info("Importação concluída!")
 
 
 # --------------------------------------------
-def importar_letras_zip(session, zip_folder: Path):
+def importar_letras_zip(zip_folder: Path):
     arquivos_zip = list(zip_folder.glob("*.zip"))
 
     total_atualizados = 0
@@ -67,7 +66,7 @@ def importar_letras_zip(session, zip_folder: Path):
                     with z.open(nome_arquivo) as f:
                         conteudo = f.read().decode("utf-8").strip()
 
-                    hino = hino_por_numero(session, numero, coletanea)
+                    hino = hino_por_numero(int(numero), coletanea)
 
                     if not hino:
                         logger.warning(f"Hino não encontrado: {coletanea}-{numero}")
@@ -79,7 +78,7 @@ def importar_letras_zip(session, zip_folder: Path):
                         total_ignorados += 1
                         continue
 
-                    atualizar_letra_hino(session, hino.id, conteudo)
+                    atualizar_letra_hino(hino.id, conteudo)
                     total_atualizados += 1
                     logger.info(f"Letra do hino {coletanea}-{numero} carregada!")
                 except Exception as e:

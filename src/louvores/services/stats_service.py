@@ -6,13 +6,14 @@ logger = logging.getLogger(__name__)
 
 
 # --------------------------------------------
-def obter_stats(session):
-    resultados = stats_por_coletanea(session)
+def obter_stats():
+    resultados = stats_por_coletanea()
 
     stats = []
 
     for codigo, titulo, total, com_letra, revisados in resultados:
-        nao_revisados = com_letra - (revisados or 0)
+        revisados = revisados or 0
+        nao_revisados = com_letra - revisados
         percentual = (com_letra / total * 100) if total > 0 else 0
 
         stats.append(
@@ -21,7 +22,7 @@ def obter_stats(session):
                 "titulo": titulo,
                 "total": total,
                 "com_letra": com_letra,
-                "revisados": revisados or 0,
+                "revisados": revisados,
                 "nao_revisados": nao_revisados,
                 "percentual": percentual,
             }
@@ -33,8 +34,8 @@ def obter_stats(session):
 
 
 # --------------------------------------------
-def listar_faltantes(session, codigo_coletanea: str | None = None):
-    hinos = hinos_sem_letra(session, codigo_coletanea)
+def listar_faltantes(codigo_coletanea: str | None = None):
+    hinos = hinos_sem_letra(codigo_coletanea)
 
     resultado = []
 

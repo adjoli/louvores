@@ -683,3 +683,968 @@
 2026-05-15 17:08:55,979 | INFO | louvores.services.import_service | total_ignorados: 72
 2026-05-15 17:08:55,980 | INFO | louvores.services.import_service | total_nao_encontrados: 0
 2026-05-15 17:09:07,856 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-05-15 17:16:52,608 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-05-15 23:57:30,287 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-05-16 00:26:20,030 | INFO | src.louvores.cli.app | Inicializando o banco de dados...
+2026-05-16 00:26:20,087 | INFO | src.louvores.cli.app | Banco de dados inicializado com sucesso.
+2026-05-16 00:26:59,605 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-05-16 00:26:59,617 | WARNING | louvores.services.import_service | Hino não encontrado: CC-001
+2026-05-16 00:26:59,618 | WARNING | louvores.services.import_service | Hino não encontrado: CC-002
+2026-05-16 00:26:59,618 | WARNING | louvores.services.import_service | Hino não encontrado: CC-003
+2026-05-16 00:26:59,619 | WARNING | louvores.services.import_service | Hino não encontrado: CC-004
+2026-05-16 00:26:59,620 | WARNING | louvores.services.import_service | Hino não encontrado: CC-005
+2026-05-16 00:26:59,621 | WARNING | louvores.services.import_service | Hino não encontrado: CC-006
+2026-05-16 00:26:59,622 | WARNING | louvores.services.import_service | Hino não encontrado: CC-007
+2026-05-16 00:26:59,622 | WARNING | louvores.services.import_service | Hino não encontrado: CC-008
+2026-05-16 00:26:59,623 | WARNING | louvores.services.import_service | Hino não encontrado: CC-009
+2026-05-16 00:26:59,624 | WARNING | louvores.services.import_service | Hino não encontrado: CC-010
+2026-05-16 00:26:59,625 | WARNING | louvores.services.import_service | Hino não encontrado: CC-227
+2026-05-16 00:26:59,626 | WARNING | louvores.services.import_service | Hino não encontrado: CC-579
+2026-05-16 00:26:59,627 | WARNING | louvores.services.import_service | Hino não encontrado: CC-013
+2026-05-16 00:26:59,627 | WARNING | louvores.services.import_service | Hino não encontrado: CC-123
+2026-05-16 00:26:59,628 | WARNING | louvores.services.import_service | Hino não encontrado: CC-168
+2026-05-16 00:26:59,629 | WARNING | louvores.services.import_service | Hino não encontrado: CC-046
+2026-05-16 00:26:59,630 | WARNING | louvores.services.import_service | Hino não encontrado: CC-328
+2026-05-16 00:26:59,631 | WARNING | louvores.services.import_service | Hino não encontrado: CC-011
+2026-05-16 00:26:59,631 | WARNING | louvores.services.import_service | Hino não encontrado: CC-012
+2026-05-16 00:26:59,632 | WARNING | louvores.services.import_service | Hino não encontrado: CC-014
+2026-05-16 00:26:59,633 | WARNING | louvores.services.import_service | Hino não encontrado: CC-015
+2026-05-16 00:26:59,634 | WARNING | louvores.services.import_service | Hino não encontrado: CC-016
+2026-05-16 00:26:59,635 | WARNING | louvores.services.import_service | Hino não encontrado: CC-017
+2026-05-16 00:26:59,636 | WARNING | louvores.services.import_service | Hino não encontrado: CC-019
+2026-05-16 00:26:59,637 | WARNING | louvores.services.import_service | Hino não encontrado: CC-020
+2026-05-16 00:26:59,638 | WARNING | louvores.services.import_service | Hino não encontrado: CC-022
+2026-05-16 00:26:59,638 | WARNING | louvores.services.import_service | Hino não encontrado: CC-025
+2026-05-16 00:26:59,639 | WARNING | louvores.services.import_service | Hino não encontrado: CC-026
+2026-05-16 00:26:59,639 | WARNING | louvores.services.import_service | Hino não encontrado: CC-028
+2026-05-16 00:26:59,640 | WARNING | louvores.services.import_service | Hino não encontrado: CC-030
+2026-05-16 00:26:59,641 | WARNING | louvores.services.import_service | Hino não encontrado: CC-031
+2026-05-16 00:26:59,641 | WARNING | louvores.services.import_service | Hino não encontrado: CC-032
+2026-05-16 00:26:59,642 | WARNING | louvores.services.import_service | Hino não encontrado: CC-033
+2026-05-16 00:26:59,642 | WARNING | louvores.services.import_service | Hino não encontrado: CC-034
+2026-05-16 00:26:59,643 | WARNING | louvores.services.import_service | Hino não encontrado: CC-035
+2026-05-16 00:26:59,643 | WARNING | louvores.services.import_service | Hino não encontrado: CC-040
+2026-05-16 00:26:59,644 | WARNING | louvores.services.import_service | Hino não encontrado: CC-041
+2026-05-16 00:26:59,644 | WARNING | louvores.services.import_service | Hino não encontrado: CC-042
+2026-05-16 00:26:59,645 | WARNING | louvores.services.import_service | Hino não encontrado: CC-044
+2026-05-16 00:26:59,646 | WARNING | louvores.services.import_service | Hino não encontrado: CC-048
+2026-05-16 00:26:59,646 | WARNING | louvores.services.import_service | Hino não encontrado: CC-049
+2026-05-16 00:26:59,647 | WARNING | louvores.services.import_service | Hino não encontrado: CC-050
+2026-05-16 00:26:59,648 | WARNING | louvores.services.import_service | Hino não encontrado: CC-051
+2026-05-16 00:26:59,648 | WARNING | louvores.services.import_service | Hino não encontrado: CC-052
+2026-05-16 00:26:59,649 | WARNING | louvores.services.import_service | Hino não encontrado: CC-053
+2026-05-16 00:26:59,650 | WARNING | louvores.services.import_service | Hino não encontrado: CC-054
+2026-05-16 00:26:59,652 | WARNING | louvores.services.import_service | Hino não encontrado: CC-056
+2026-05-16 00:26:59,653 | WARNING | louvores.services.import_service | Hino não encontrado: CC-057
+2026-05-16 00:26:59,654 | WARNING | louvores.services.import_service | Hino não encontrado: CC-058
+2026-05-16 00:26:59,654 | WARNING | louvores.services.import_service | Hino não encontrado: CC-060
+2026-05-16 00:26:59,655 | WARNING | louvores.services.import_service | Hino não encontrado: CC-061
+2026-05-16 00:26:59,655 | WARNING | louvores.services.import_service | Hino não encontrado: CC-062
+2026-05-16 00:26:59,656 | WARNING | louvores.services.import_service | Hino não encontrado: CC-063
+2026-05-16 00:26:59,656 | WARNING | louvores.services.import_service | Hino não encontrado: CC-064
+2026-05-16 00:26:59,657 | WARNING | louvores.services.import_service | Hino não encontrado: CC-065
+2026-05-16 00:26:59,658 | WARNING | louvores.services.import_service | Hino não encontrado: CC-067
+2026-05-16 00:26:59,658 | WARNING | louvores.services.import_service | Hino não encontrado: CC-068
+2026-05-16 00:26:59,659 | WARNING | louvores.services.import_service | Hino não encontrado: CC-070
+2026-05-16 00:26:59,660 | WARNING | louvores.services.import_service | Hino não encontrado: CC-072
+2026-05-16 00:26:59,660 | WARNING | louvores.services.import_service | Hino não encontrado: CC-073
+2026-05-16 00:26:59,661 | WARNING | louvores.services.import_service | Hino não encontrado: CC-074
+2026-05-16 00:26:59,661 | WARNING | louvores.services.import_service | Hino não encontrado: CC-076
+2026-05-16 00:26:59,662 | WARNING | louvores.services.import_service | Hino não encontrado: CC-078
+2026-05-16 00:26:59,663 | WARNING | louvores.services.import_service | Hino não encontrado: CC-080
+2026-05-16 00:26:59,663 | WARNING | louvores.services.import_service | Hino não encontrado: CC-082
+2026-05-16 00:26:59,664 | WARNING | louvores.services.import_service | Hino não encontrado: CC-084
+2026-05-16 00:26:59,665 | WARNING | louvores.services.import_service | Hino não encontrado: CC-085
+2026-05-16 00:26:59,666 | WARNING | louvores.services.import_service | Hino não encontrado: CC-086
+2026-05-16 00:26:59,667 | WARNING | louvores.services.import_service | Hino não encontrado: CC-087
+2026-05-16 00:26:59,668 | WARNING | louvores.services.import_service | Hino não encontrado: CC-088
+2026-05-16 00:26:59,669 | WARNING | louvores.services.import_service | Hino não encontrado: CC-089
+2026-05-16 00:26:59,669 | WARNING | louvores.services.import_service | Hino não encontrado: CC-090
+2026-05-16 00:26:59,670 | WARNING | louvores.services.import_service | Hino não encontrado: CC-091
+2026-05-16 00:26:59,671 | WARNING | louvores.services.import_service | Hino não encontrado: CC-092
+2026-05-16 00:26:59,671 | WARNING | louvores.services.import_service | Hino não encontrado: CC-096
+2026-05-16 00:26:59,672 | WARNING | louvores.services.import_service | Hino não encontrado: CC-097
+2026-05-16 00:26:59,672 | WARNING | louvores.services.import_service | Hino não encontrado: CC-098
+2026-05-16 00:26:59,673 | WARNING | louvores.services.import_service | Hino não encontrado: CC-099
+2026-05-16 00:26:59,674 | WARNING | louvores.services.import_service | Hino não encontrado: CC-100
+2026-05-16 00:26:59,674 | WARNING | louvores.services.import_service | Hino não encontrado: CC-101
+2026-05-16 00:26:59,675 | WARNING | louvores.services.import_service | Hino não encontrado: CC-102
+2026-05-16 00:26:59,675 | WARNING | louvores.services.import_service | Hino não encontrado: CC-103
+2026-05-16 00:26:59,676 | WARNING | louvores.services.import_service | Hino não encontrado: CC-105
+2026-05-16 00:26:59,677 | WARNING | louvores.services.import_service | Hino não encontrado: CC-107
+2026-05-16 00:26:59,677 | WARNING | louvores.services.import_service | Hino não encontrado: CC-109
+2026-05-16 00:26:59,678 | WARNING | louvores.services.import_service | Hino não encontrado: CC-110
+2026-05-16 00:26:59,679 | WARNING | louvores.services.import_service | Hino não encontrado: CC-111
+2026-05-16 00:26:59,679 | WARNING | louvores.services.import_service | Hino não encontrado: CC-114
+2026-05-16 00:26:59,680 | WARNING | louvores.services.import_service | Hino não encontrado: CC-115
+2026-05-16 00:26:59,680 | WARNING | louvores.services.import_service | Hino não encontrado: CC-116
+2026-05-16 00:26:59,681 | WARNING | louvores.services.import_service | Hino não encontrado: CC-117
+2026-05-16 00:26:59,682 | WARNING | louvores.services.import_service | Hino não encontrado: CC-118
+2026-05-16 00:26:59,683 | WARNING | louvores.services.import_service | Hino não encontrado: CC-119
+2026-05-16 00:26:59,684 | WARNING | louvores.services.import_service | Hino não encontrado: CC-120
+2026-05-16 00:26:59,685 | WARNING | louvores.services.import_service | Hino não encontrado: CC-121
+2026-05-16 00:26:59,686 | WARNING | louvores.services.import_service | Hino não encontrado: CC-122
+2026-05-16 00:26:59,686 | WARNING | louvores.services.import_service | Hino não encontrado: CC-124
+2026-05-16 00:26:59,687 | WARNING | louvores.services.import_service | Hino não encontrado: CC-125
+2026-05-16 00:26:59,687 | WARNING | louvores.services.import_service | Hino não encontrado: CC-126
+2026-05-16 00:26:59,688 | WARNING | louvores.services.import_service | Hino não encontrado: CC-127
+2026-05-16 00:26:59,688 | WARNING | louvores.services.import_service | Hino não encontrado: CC-128
+2026-05-16 00:26:59,689 | WARNING | louvores.services.import_service | Hino não encontrado: CC-129
+2026-05-16 00:26:59,690 | WARNING | louvores.services.import_service | Hino não encontrado: CC-130
+2026-05-16 00:26:59,690 | WARNING | louvores.services.import_service | Hino não encontrado: CC-132
+2026-05-16 00:26:59,691 | WARNING | louvores.services.import_service | Hino não encontrado: CC-133
+2026-05-16 00:26:59,691 | WARNING | louvores.services.import_service | Hino não encontrado: CC-134
+2026-05-16 00:26:59,692 | WARNING | louvores.services.import_service | Hino não encontrado: CC-135
+2026-05-16 00:26:59,693 | WARNING | louvores.services.import_service | Hino não encontrado: CC-136
+2026-05-16 00:26:59,693 | WARNING | louvores.services.import_service | Hino não encontrado: CC-137
+2026-05-16 00:26:59,694 | WARNING | louvores.services.import_service | Hino não encontrado: CC-138
+2026-05-16 00:26:59,695 | WARNING | louvores.services.import_service | Hino não encontrado: CC-139
+2026-05-16 00:26:59,695 | WARNING | louvores.services.import_service | Hino não encontrado: CC-141
+2026-05-16 00:26:59,696 | WARNING | louvores.services.import_service | Hino não encontrado: CC-142
+2026-05-16 00:26:59,696 | WARNING | louvores.services.import_service | Hino não encontrado: CC-143
+2026-05-16 00:26:59,697 | WARNING | louvores.services.import_service | Hino não encontrado: CC-144
+2026-05-16 00:26:59,698 | WARNING | louvores.services.import_service | Hino não encontrado: CC-145
+2026-05-16 00:26:59,698 | WARNING | louvores.services.import_service | Hino não encontrado: CC-146
+2026-05-16 00:26:59,700 | WARNING | louvores.services.import_service | Hino não encontrado: CC-147
+2026-05-16 00:26:59,701 | WARNING | louvores.services.import_service | Hino não encontrado: CC-148
+2026-05-16 00:26:59,702 | WARNING | louvores.services.import_service | Hino não encontrado: CC-149
+2026-05-16 00:26:59,702 | WARNING | louvores.services.import_service | Hino não encontrado: CC-150
+2026-05-16 00:26:59,703 | WARNING | louvores.services.import_service | Hino não encontrado: CC-151
+2026-05-16 00:26:59,704 | WARNING | louvores.services.import_service | Hino não encontrado: CC-152
+2026-05-16 00:26:59,704 | WARNING | louvores.services.import_service | Hino não encontrado: CC-153
+2026-05-16 00:26:59,705 | WARNING | louvores.services.import_service | Hino não encontrado: CC-154
+2026-05-16 00:26:59,706 | WARNING | louvores.services.import_service | Hino não encontrado: CC-157
+2026-05-16 00:26:59,706 | WARNING | louvores.services.import_service | Hino não encontrado: CC-158
+2026-05-16 00:26:59,707 | WARNING | louvores.services.import_service | Hino não encontrado: CC-159
+2026-05-16 00:26:59,707 | WARNING | louvores.services.import_service | Hino não encontrado: CC-161
+2026-05-16 00:26:59,708 | WARNING | louvores.services.import_service | Hino não encontrado: CC-162
+2026-05-16 00:26:59,708 | WARNING | louvores.services.import_service | Hino não encontrado: CC-163
+2026-05-16 00:26:59,709 | WARNING | louvores.services.import_service | Hino não encontrado: CC-164
+2026-05-16 00:26:59,710 | WARNING | louvores.services.import_service | Hino não encontrado: CC-165
+2026-05-16 00:26:59,710 | WARNING | louvores.services.import_service | Hino não encontrado: CC-166
+2026-05-16 00:26:59,711 | WARNING | louvores.services.import_service | Hino não encontrado: CC-167
+2026-05-16 00:26:59,711 | WARNING | louvores.services.import_service | Hino não encontrado: CC-169
+2026-05-16 00:26:59,712 | WARNING | louvores.services.import_service | Hino não encontrado: CC-170
+2026-05-16 00:26:59,712 | WARNING | louvores.services.import_service | Hino não encontrado: CC-171
+2026-05-16 00:26:59,713 | WARNING | louvores.services.import_service | Hino não encontrado: CC-172
+2026-05-16 00:26:59,713 | WARNING | louvores.services.import_service | Hino não encontrado: CC-173
+2026-05-16 00:26:59,714 | WARNING | louvores.services.import_service | Hino não encontrado: CC-175
+2026-05-16 00:26:59,715 | WARNING | louvores.services.import_service | Hino não encontrado: CC-176
+2026-05-16 00:26:59,716 | WARNING | louvores.services.import_service | Hino não encontrado: CC-177
+2026-05-16 00:26:59,717 | WARNING | louvores.services.import_service | Hino não encontrado: CC-178
+2026-05-16 00:26:59,718 | WARNING | louvores.services.import_service | Hino não encontrado: CC-179
+2026-05-16 00:26:59,719 | WARNING | louvores.services.import_service | Hino não encontrado: CC-180
+2026-05-16 00:26:59,719 | WARNING | louvores.services.import_service | Hino não encontrado: CC-181
+2026-05-16 00:26:59,720 | WARNING | louvores.services.import_service | Hino não encontrado: CC-183
+2026-05-16 00:26:59,720 | WARNING | louvores.services.import_service | Hino não encontrado: CC-185
+2026-05-16 00:26:59,721 | WARNING | louvores.services.import_service | Hino não encontrado: CC-187
+2026-05-16 00:26:59,721 | WARNING | louvores.services.import_service | Hino não encontrado: CC-188
+2026-05-16 00:26:59,722 | WARNING | louvores.services.import_service | Hino não encontrado: CC-189
+2026-05-16 00:26:59,723 | WARNING | louvores.services.import_service | Hino não encontrado: CC-191
+2026-05-16 00:26:59,724 | WARNING | louvores.services.import_service | Hino não encontrado: CC-194
+2026-05-16 00:26:59,724 | WARNING | louvores.services.import_service | Hino não encontrado: CC-196
+2026-05-16 00:26:59,725 | WARNING | louvores.services.import_service | Hino não encontrado: CC-197
+2026-05-16 00:26:59,725 | WARNING | louvores.services.import_service | Hino não encontrado: CC-198
+2026-05-16 00:26:59,726 | WARNING | louvores.services.import_service | Hino não encontrado: CC-199
+2026-05-16 00:26:59,727 | WARNING | louvores.services.import_service | Hino não encontrado: CC-200
+2026-05-16 00:26:59,727 | WARNING | louvores.services.import_service | Hino não encontrado: CC-202
+2026-05-16 00:26:59,728 | WARNING | louvores.services.import_service | Hino não encontrado: CC-203
+2026-05-16 00:26:59,728 | WARNING | louvores.services.import_service | Hino não encontrado: CC-206
+2026-05-16 00:26:59,729 | WARNING | louvores.services.import_service | Hino não encontrado: CC-207
+2026-05-16 00:26:59,730 | WARNING | louvores.services.import_service | Hino não encontrado: CC-208
+2026-05-16 00:26:59,730 | WARNING | louvores.services.import_service | Hino não encontrado: CC-209
+2026-05-16 00:26:59,731 | WARNING | louvores.services.import_service | Hino não encontrado: CC-210
+2026-05-16 00:26:59,732 | WARNING | louvores.services.import_service | Hino não encontrado: CC-212
+2026-05-16 00:26:59,733 | WARNING | louvores.services.import_service | Hino não encontrado: CC-215
+2026-05-16 00:26:59,734 | WARNING | louvores.services.import_service | Hino não encontrado: CC-216
+2026-05-16 00:26:59,735 | WARNING | louvores.services.import_service | Hino não encontrado: CC-219
+2026-05-16 00:26:59,735 | WARNING | louvores.services.import_service | Hino não encontrado: CC-220
+2026-05-16 00:26:59,736 | WARNING | louvores.services.import_service | Hino não encontrado: CC-221
+2026-05-16 00:26:59,736 | WARNING | louvores.services.import_service | Hino não encontrado: CC-222
+2026-05-16 00:26:59,737 | WARNING | louvores.services.import_service | Hino não encontrado: CC-223
+2026-05-16 00:26:59,737 | WARNING | louvores.services.import_service | Hino não encontrado: CC-225
+2026-05-16 00:26:59,738 | WARNING | louvores.services.import_service | Hino não encontrado: CC-226
+2026-05-16 00:26:59,739 | WARNING | louvores.services.import_service | Hino não encontrado: CC-228
+2026-05-16 00:26:59,739 | WARNING | louvores.services.import_service | Hino não encontrado: CC-229
+2026-05-16 00:26:59,740 | WARNING | louvores.services.import_service | Hino não encontrado: CC-233
+2026-05-16 00:26:59,741 | WARNING | louvores.services.import_service | Hino não encontrado: CC-234
+2026-05-16 00:26:59,741 | WARNING | louvores.services.import_service | Hino não encontrado: CC-235
+2026-05-16 00:26:59,742 | WARNING | louvores.services.import_service | Hino não encontrado: CC-237
+2026-05-16 00:26:59,742 | WARNING | louvores.services.import_service | Hino não encontrado: CC-240
+2026-05-16 00:26:59,743 | WARNING | louvores.services.import_service | Hino não encontrado: CC-242
+2026-05-16 00:26:59,743 | WARNING | louvores.services.import_service | Hino não encontrado: CC-243
+2026-05-16 00:26:59,744 | WARNING | louvores.services.import_service | Hino não encontrado: CC-244
+2026-05-16 00:26:59,744 | WARNING | louvores.services.import_service | Hino não encontrado: CC-245
+2026-05-16 00:26:59,745 | WARNING | louvores.services.import_service | Hino não encontrado: CC-246
+2026-05-16 00:26:59,746 | WARNING | louvores.services.import_service | Hino não encontrado: CC-247
+2026-05-16 00:26:59,747 | WARNING | louvores.services.import_service | Hino não encontrado: CC-248
+2026-05-16 00:26:59,748 | WARNING | louvores.services.import_service | Hino não encontrado: CC-249
+2026-05-16 00:26:59,749 | WARNING | louvores.services.import_service | Hino não encontrado: CC-253
+2026-05-16 00:26:59,750 | WARNING | louvores.services.import_service | Hino não encontrado: CC-254
+2026-05-16 00:26:59,751 | WARNING | louvores.services.import_service | Hino não encontrado: CC-258
+2026-05-16 00:26:59,751 | WARNING | louvores.services.import_service | Hino não encontrado: CC-259
+2026-05-16 00:26:59,752 | WARNING | louvores.services.import_service | Hino não encontrado: CC-260
+2026-05-16 00:26:59,752 | WARNING | louvores.services.import_service | Hino não encontrado: CC-261
+2026-05-16 00:26:59,753 | WARNING | louvores.services.import_service | Hino não encontrado: CC-262
+2026-05-16 00:26:59,753 | WARNING | louvores.services.import_service | Hino não encontrado: CC-264
+2026-05-16 00:26:59,754 | WARNING | louvores.services.import_service | Hino não encontrado: CC-267
+2026-05-16 00:26:59,755 | WARNING | louvores.services.import_service | Hino não encontrado: CC-268
+2026-05-16 00:26:59,755 | WARNING | louvores.services.import_service | Hino não encontrado: CC-269
+2026-05-16 00:26:59,756 | WARNING | louvores.services.import_service | Hino não encontrado: CC-270
+2026-05-16 00:26:59,756 | WARNING | louvores.services.import_service | Hino não encontrado: CC-271
+2026-05-16 00:26:59,757 | WARNING | louvores.services.import_service | Hino não encontrado: CC-272
+2026-05-16 00:26:59,757 | WARNING | louvores.services.import_service | Hino não encontrado: CC-273
+2026-05-16 00:26:59,758 | WARNING | louvores.services.import_service | Hino não encontrado: CC-274
+2026-05-16 00:26:59,759 | WARNING | louvores.services.import_service | Hino não encontrado: CC-275
+2026-05-16 00:26:59,759 | WARNING | louvores.services.import_service | Hino não encontrado: CC-276
+2026-05-16 00:26:59,760 | WARNING | louvores.services.import_service | Hino não encontrado: CC-277
+2026-05-16 00:26:59,760 | WARNING | louvores.services.import_service | Hino não encontrado: CC-278
+2026-05-16 00:26:59,761 | WARNING | louvores.services.import_service | Hino não encontrado: CC-279
+2026-05-16 00:26:59,761 | WARNING | louvores.services.import_service | Hino não encontrado: CC-280
+2026-05-16 00:26:59,762 | WARNING | louvores.services.import_service | Hino não encontrado: CC-281
+2026-05-16 00:26:59,763 | WARNING | louvores.services.import_service | Hino não encontrado: CC-282
+2026-05-16 00:26:59,764 | WARNING | louvores.services.import_service | Hino não encontrado: CC-284
+2026-05-16 00:26:59,765 | WARNING | louvores.services.import_service | Hino não encontrado: CC-285
+2026-05-16 00:26:59,766 | WARNING | louvores.services.import_service | Hino não encontrado: CC-286
+2026-05-16 00:26:59,766 | WARNING | louvores.services.import_service | Hino não encontrado: CC-287
+2026-05-16 00:26:59,767 | WARNING | louvores.services.import_service | Hino não encontrado: CC-289
+2026-05-16 00:26:59,767 | WARNING | louvores.services.import_service | Hino não encontrado: CC-290
+2026-05-16 00:26:59,768 | WARNING | louvores.services.import_service | Hino não encontrado: CC-292
+2026-05-16 00:26:59,768 | WARNING | louvores.services.import_service | Hino não encontrado: CC-293
+2026-05-16 00:26:59,769 | WARNING | louvores.services.import_service | Hino não encontrado: CC-294
+2026-05-16 00:26:59,770 | WARNING | louvores.services.import_service | Hino não encontrado: CC-295
+2026-05-16 00:26:59,770 | WARNING | louvores.services.import_service | Hino não encontrado: CC-296
+2026-05-16 00:26:59,771 | WARNING | louvores.services.import_service | Hino não encontrado: CC-297
+2026-05-16 00:26:59,771 | WARNING | louvores.services.import_service | Hino não encontrado: CC-299
+2026-05-16 00:26:59,772 | WARNING | louvores.services.import_service | Hino não encontrado: CC-300
+2026-05-16 00:26:59,772 | WARNING | louvores.services.import_service | Hino não encontrado: CC-301
+2026-05-16 00:26:59,773 | WARNING | louvores.services.import_service | Hino não encontrado: CC-302
+2026-05-16 00:26:59,773 | WARNING | louvores.services.import_service | Hino não encontrado: CC-303
+2026-05-16 00:26:59,774 | WARNING | louvores.services.import_service | Hino não encontrado: CC-304
+2026-05-16 00:26:59,775 | WARNING | louvores.services.import_service | Hino não encontrado: CC-306
+2026-05-16 00:26:59,775 | WARNING | louvores.services.import_service | Hino não encontrado: CC-307
+2026-05-16 00:26:59,776 | WARNING | louvores.services.import_service | Hino não encontrado: CC-308
+2026-05-16 00:26:59,776 | WARNING | louvores.services.import_service | Hino não encontrado: CC-309
+2026-05-16 00:26:59,777 | WARNING | louvores.services.import_service | Hino não encontrado: CC-310
+2026-05-16 00:26:59,777 | WARNING | louvores.services.import_service | Hino não encontrado: CC-311
+2026-05-16 00:26:59,778 | WARNING | louvores.services.import_service | Hino não encontrado: CC-313
+2026-05-16 00:26:59,779 | WARNING | louvores.services.import_service | Hino não encontrado: CC-314
+2026-05-16 00:26:59,780 | WARNING | louvores.services.import_service | Hino não encontrado: CC-315
+2026-05-16 00:26:59,781 | WARNING | louvores.services.import_service | Hino não encontrado: CC-316
+2026-05-16 00:26:59,782 | WARNING | louvores.services.import_service | Hino não encontrado: CC-317
+2026-05-16 00:26:59,782 | WARNING | louvores.services.import_service | Hino não encontrado: CC-320
+2026-05-16 00:26:59,783 | WARNING | louvores.services.import_service | Hino não encontrado: CC-321
+2026-05-16 00:26:59,784 | WARNING | louvores.services.import_service | Hino não encontrado: CC-322
+2026-05-16 00:26:59,784 | WARNING | louvores.services.import_service | Hino não encontrado: CC-323
+2026-05-16 00:26:59,785 | WARNING | louvores.services.import_service | Hino não encontrado: CC-326
+2026-05-16 00:26:59,785 | WARNING | louvores.services.import_service | Hino não encontrado: CC-331
+2026-05-16 00:26:59,786 | WARNING | louvores.services.import_service | Hino não encontrado: CC-332
+2026-05-16 00:26:59,787 | WARNING | louvores.services.import_service | Hino não encontrado: CC-334
+2026-05-16 00:26:59,787 | WARNING | louvores.services.import_service | Hino não encontrado: CC-335
+2026-05-16 00:26:59,788 | WARNING | louvores.services.import_service | Hino não encontrado: CC-336
+2026-05-16 00:26:59,788 | WARNING | louvores.services.import_service | Hino não encontrado: CC-337
+2026-05-16 00:26:59,789 | WARNING | louvores.services.import_service | Hino não encontrado: CC-338
+2026-05-16 00:26:59,789 | WARNING | louvores.services.import_service | Hino não encontrado: CC-339
+2026-05-16 00:26:59,790 | WARNING | louvores.services.import_service | Hino não encontrado: CC-341
+2026-05-16 00:26:59,790 | WARNING | louvores.services.import_service | Hino não encontrado: CC-343
+2026-05-16 00:26:59,791 | WARNING | louvores.services.import_service | Hino não encontrado: CC-348
+2026-05-16 00:26:59,792 | WARNING | louvores.services.import_service | Hino não encontrado: CC-349
+2026-05-16 00:26:59,793 | WARNING | louvores.services.import_service | Hino não encontrado: CC-351
+2026-05-16 00:26:59,793 | WARNING | louvores.services.import_service | Hino não encontrado: CC-352
+2026-05-16 00:26:59,794 | WARNING | louvores.services.import_service | Hino não encontrado: CC-354
+2026-05-16 00:26:59,794 | WARNING | louvores.services.import_service | Hino não encontrado: CC-355
+2026-05-16 00:26:59,795 | WARNING | louvores.services.import_service | Hino não encontrado: CC-356
+2026-05-16 00:26:59,795 | WARNING | louvores.services.import_service | Hino não encontrado: CC-357
+2026-05-16 00:26:59,796 | WARNING | louvores.services.import_service | Hino não encontrado: CC-360
+2026-05-16 00:26:59,798 | WARNING | louvores.services.import_service | Hino não encontrado: CC-362
+2026-05-16 00:26:59,798 | WARNING | louvores.services.import_service | Hino não encontrado: CC-363
+2026-05-16 00:26:59,799 | WARNING | louvores.services.import_service | Hino não encontrado: CC-364
+2026-05-16 00:26:59,800 | WARNING | louvores.services.import_service | Hino não encontrado: CC-365
+2026-05-16 00:26:59,800 | WARNING | louvores.services.import_service | Hino não encontrado: CC-366
+2026-05-16 00:26:59,801 | WARNING | louvores.services.import_service | Hino não encontrado: CC-367
+2026-05-16 00:26:59,801 | WARNING | louvores.services.import_service | Hino não encontrado: CC-369
+2026-05-16 00:26:59,802 | WARNING | louvores.services.import_service | Hino não encontrado: CC-370
+2026-05-16 00:26:59,803 | WARNING | louvores.services.import_service | Hino não encontrado: CC-371
+2026-05-16 00:26:59,819 | WARNING | louvores.services.import_service | Hino não encontrado: CC-372
+2026-05-16 00:26:59,841 | WARNING | louvores.services.import_service | Hino não encontrado: CC-374
+2026-05-16 00:26:59,850 | WARNING | louvores.services.import_service | Hino não encontrado: CC-375
+2026-05-16 00:26:59,863 | WARNING | louvores.services.import_service | Hino não encontrado: CC-376
+2026-05-16 00:26:59,864 | WARNING | louvores.services.import_service | Hino não encontrado: CC-378
+2026-05-16 00:26:59,865 | WARNING | louvores.services.import_service | Hino não encontrado: CC-379
+2026-05-16 00:26:59,866 | WARNING | louvores.services.import_service | Hino não encontrado: CC-380
+2026-05-16 00:26:59,867 | WARNING | louvores.services.import_service | Hino não encontrado: CC-381
+2026-05-16 00:26:59,869 | WARNING | louvores.services.import_service | Hino não encontrado: CC-384
+2026-05-16 00:26:59,869 | WARNING | louvores.services.import_service | Hino não encontrado: CC-385
+2026-05-16 00:26:59,870 | WARNING | louvores.services.import_service | Hino não encontrado: CC-386
+2026-05-16 00:26:59,871 | WARNING | louvores.services.import_service | Hino não encontrado: CC-387
+2026-05-16 00:26:59,872 | WARNING | louvores.services.import_service | Hino não encontrado: CC-388
+2026-05-16 00:26:59,872 | WARNING | louvores.services.import_service | Hino não encontrado: CC-389
+2026-05-16 00:26:59,873 | WARNING | louvores.services.import_service | Hino não encontrado: CC-390
+2026-05-16 00:26:59,874 | WARNING | louvores.services.import_service | Hino não encontrado: CC-391
+2026-05-16 00:26:59,877 | WARNING | louvores.services.import_service | Hino não encontrado: CC-392
+2026-05-16 00:26:59,877 | WARNING | louvores.services.import_service | Hino não encontrado: CC-394
+2026-05-16 00:26:59,878 | WARNING | louvores.services.import_service | Hino não encontrado: CC-395
+2026-05-16 00:26:59,887 | WARNING | louvores.services.import_service | Hino não encontrado: CC-396
+2026-05-16 00:26:59,893 | WARNING | louvores.services.import_service | Hino não encontrado: CC-397
+2026-05-16 00:26:59,894 | WARNING | louvores.services.import_service | Hino não encontrado: CC-398
+2026-05-16 00:26:59,894 | WARNING | louvores.services.import_service | Hino não encontrado: CC-399
+2026-05-16 00:26:59,895 | WARNING | louvores.services.import_service | Hino não encontrado: CC-400
+2026-05-16 00:26:59,896 | WARNING | louvores.services.import_service | Hino não encontrado: CC-401
+2026-05-16 00:26:59,897 | WARNING | louvores.services.import_service | Hino não encontrado: CC-402
+2026-05-16 00:26:59,898 | WARNING | louvores.services.import_service | Hino não encontrado: CC-403
+2026-05-16 00:26:59,899 | WARNING | louvores.services.import_service | Hino não encontrado: CC-404
+2026-05-16 00:26:59,900 | WARNING | louvores.services.import_service | Hino não encontrado: CC-405
+2026-05-16 00:26:59,901 | WARNING | louvores.services.import_service | Hino não encontrado: CC-406
+2026-05-16 00:26:59,902 | WARNING | louvores.services.import_service | Hino não encontrado: CC-407
+2026-05-16 00:26:59,902 | WARNING | louvores.services.import_service | Hino não encontrado: CC-408
+2026-05-16 00:26:59,903 | WARNING | louvores.services.import_service | Hino não encontrado: CC-409
+2026-05-16 00:26:59,903 | WARNING | louvores.services.import_service | Hino não encontrado: CC-410
+2026-05-16 00:26:59,904 | WARNING | louvores.services.import_service | Hino não encontrado: CC-411
+2026-05-16 00:26:59,905 | WARNING | louvores.services.import_service | Hino não encontrado: CC-412
+2026-05-16 00:26:59,905 | WARNING | louvores.services.import_service | Hino não encontrado: CC-413
+2026-05-16 00:26:59,906 | WARNING | louvores.services.import_service | Hino não encontrado: CC-418
+2026-05-16 00:26:59,907 | WARNING | louvores.services.import_service | Hino não encontrado: CC-419
+2026-05-16 00:26:59,907 | WARNING | louvores.services.import_service | Hino não encontrado: CC-420
+2026-05-16 00:26:59,908 | WARNING | louvores.services.import_service | Hino não encontrado: CC-421
+2026-05-16 00:26:59,908 | WARNING | louvores.services.import_service | Hino não encontrado: CC-422
+2026-05-16 00:26:59,909 | WARNING | louvores.services.import_service | Hino não encontrado: CC-423
+2026-05-16 00:26:59,910 | WARNING | louvores.services.import_service | Hino não encontrado: CC-425
+2026-05-16 00:26:59,910 | WARNING | louvores.services.import_service | Hino não encontrado: CC-426
+2026-05-16 00:26:59,911 | WARNING | louvores.services.import_service | Hino não encontrado: CC-427
+2026-05-16 00:26:59,911 | WARNING | louvores.services.import_service | Hino não encontrado: CC-428
+2026-05-16 00:26:59,912 | WARNING | louvores.services.import_service | Hino não encontrado: CC-429
+2026-05-16 00:26:59,913 | WARNING | louvores.services.import_service | Hino não encontrado: CC-430
+2026-05-16 00:26:59,913 | WARNING | louvores.services.import_service | Hino não encontrado: CC-431
+2026-05-16 00:26:59,914 | WARNING | louvores.services.import_service | Hino não encontrado: CC-432
+2026-05-16 00:26:59,915 | WARNING | louvores.services.import_service | Hino não encontrado: CC-435
+2026-05-16 00:26:59,916 | WARNING | louvores.services.import_service | Hino não encontrado: CC-436
+2026-05-16 00:26:59,917 | WARNING | louvores.services.import_service | Hino não encontrado: CC-439
+2026-05-16 00:26:59,918 | WARNING | louvores.services.import_service | Hino não encontrado: CC-440
+2026-05-16 00:26:59,919 | WARNING | louvores.services.import_service | Hino não encontrado: CC-441
+2026-05-16 00:26:59,919 | WARNING | louvores.services.import_service | Hino não encontrado: CC-442
+2026-05-16 00:26:59,920 | WARNING | louvores.services.import_service | Hino não encontrado: CC-444
+2026-05-16 00:26:59,920 | WARNING | louvores.services.import_service | Hino não encontrado: CC-446
+2026-05-16 00:26:59,921 | WARNING | louvores.services.import_service | Hino não encontrado: CC-448
+2026-05-16 00:26:59,921 | WARNING | louvores.services.import_service | Hino não encontrado: CC-453
+2026-05-16 00:26:59,922 | WARNING | louvores.services.import_service | Hino não encontrado: CC-454
+2026-05-16 00:26:59,923 | WARNING | louvores.services.import_service | Hino não encontrado: CC-455
+2026-05-16 00:26:59,923 | WARNING | louvores.services.import_service | Hino não encontrado: CC-456
+2026-05-16 00:26:59,924 | WARNING | louvores.services.import_service | Hino não encontrado: CC-457
+2026-05-16 00:26:59,924 | WARNING | louvores.services.import_service | Hino não encontrado: CC-459
+2026-05-16 00:26:59,925 | WARNING | louvores.services.import_service | Hino não encontrado: CC-460
+2026-05-16 00:26:59,925 | WARNING | louvores.services.import_service | Hino não encontrado: CC-462
+2026-05-16 00:26:59,926 | WARNING | louvores.services.import_service | Hino não encontrado: CC-463
+2026-05-16 00:26:59,926 | WARNING | louvores.services.import_service | Hino não encontrado: CC-464
+2026-05-16 00:26:59,927 | WARNING | louvores.services.import_service | Hino não encontrado: CC-465
+2026-05-16 00:26:59,928 | WARNING | louvores.services.import_service | Hino não encontrado: CC-466
+2026-05-16 00:26:59,928 | WARNING | louvores.services.import_service | Hino não encontrado: CC-467
+2026-05-16 00:26:59,929 | WARNING | louvores.services.import_service | Hino não encontrado: CC-469
+2026-05-16 00:26:59,930 | WARNING | louvores.services.import_service | Hino não encontrado: CC-470
+2026-05-16 00:26:59,931 | WARNING | louvores.services.import_service | Hino não encontrado: CC-471
+2026-05-16 00:26:59,931 | WARNING | louvores.services.import_service | Hino não encontrado: CC-472
+2026-05-16 00:26:59,933 | WARNING | louvores.services.import_service | Hino não encontrado: CC-473
+2026-05-16 00:26:59,933 | WARNING | louvores.services.import_service | Hino não encontrado: CC-476
+2026-05-16 00:26:59,934 | WARNING | louvores.services.import_service | Hino não encontrado: CC-477
+2026-05-16 00:26:59,935 | WARNING | louvores.services.import_service | Hino não encontrado: CC-478
+2026-05-16 00:26:59,935 | WARNING | louvores.services.import_service | Hino não encontrado: CC-479
+2026-05-16 00:26:59,936 | WARNING | louvores.services.import_service | Hino não encontrado: CC-480
+2026-05-16 00:26:59,936 | WARNING | louvores.services.import_service | Hino não encontrado: CC-481
+2026-05-16 00:26:59,937 | WARNING | louvores.services.import_service | Hino não encontrado: CC-482
+2026-05-16 00:26:59,937 | WARNING | louvores.services.import_service | Hino não encontrado: CC-483
+2026-05-16 00:26:59,938 | WARNING | louvores.services.import_service | Hino não encontrado: CC-484
+2026-05-16 00:26:59,938 | WARNING | louvores.services.import_service | Hino não encontrado: CC-485
+2026-05-16 00:26:59,939 | WARNING | louvores.services.import_service | Hino não encontrado: CC-486
+2026-05-16 00:26:59,940 | WARNING | louvores.services.import_service | Hino não encontrado: CC-487
+2026-05-16 00:26:59,940 | WARNING | louvores.services.import_service | Hino não encontrado: CC-490
+2026-05-16 00:26:59,941 | WARNING | louvores.services.import_service | Hino não encontrado: CC-492
+2026-05-16 00:26:59,941 | WARNING | louvores.services.import_service | Hino não encontrado: CC-493
+2026-05-16 00:26:59,942 | WARNING | louvores.services.import_service | Hino não encontrado: CC-494
+2026-05-16 00:26:59,942 | WARNING | louvores.services.import_service | Hino não encontrado: CC-495
+2026-05-16 00:26:59,943 | WARNING | louvores.services.import_service | Hino não encontrado: CC-496
+2026-05-16 00:26:59,944 | WARNING | louvores.services.import_service | Hino não encontrado: CC-497
+2026-05-16 00:26:59,944 | WARNING | louvores.services.import_service | Hino não encontrado: CC-498
+2026-05-16 00:26:59,945 | WARNING | louvores.services.import_service | Hino não encontrado: CC-499
+2026-05-16 00:26:59,946 | WARNING | louvores.services.import_service | Hino não encontrado: CC-500
+2026-05-16 00:26:59,947 | WARNING | louvores.services.import_service | Hino não encontrado: CC-501
+2026-05-16 00:26:59,947 | WARNING | louvores.services.import_service | Hino não encontrado: CC-502
+2026-05-16 00:26:59,948 | WARNING | louvores.services.import_service | Hino não encontrado: CC-503
+2026-05-16 00:26:59,949 | WARNING | louvores.services.import_service | Hino não encontrado: CC-505
+2026-05-16 00:26:59,950 | WARNING | louvores.services.import_service | Hino não encontrado: CC-507
+2026-05-16 00:26:59,950 | WARNING | louvores.services.import_service | Hino não encontrado: CC-509
+2026-05-16 00:26:59,951 | WARNING | louvores.services.import_service | Hino não encontrado: CC-510
+2026-05-16 00:26:59,951 | WARNING | louvores.services.import_service | Hino não encontrado: CC-511
+2026-05-16 00:26:59,952 | WARNING | louvores.services.import_service | Hino não encontrado: CC-512
+2026-05-16 00:26:59,952 | WARNING | louvores.services.import_service | Hino não encontrado: CC-513
+2026-05-16 00:26:59,953 | WARNING | louvores.services.import_service | Hino não encontrado: CC-514
+2026-05-16 00:26:59,954 | WARNING | louvores.services.import_service | Hino não encontrado: CC-515
+2026-05-16 00:26:59,954 | WARNING | louvores.services.import_service | Hino não encontrado: CC-516
+2026-05-16 00:26:59,955 | WARNING | louvores.services.import_service | Hino não encontrado: CC-517
+2026-05-16 00:26:59,955 | WARNING | louvores.services.import_service | Hino não encontrado: CC-518
+2026-05-16 00:26:59,956 | WARNING | louvores.services.import_service | Hino não encontrado: CC-520
+2026-05-16 00:26:59,956 | WARNING | louvores.services.import_service | Hino não encontrado: CC-522
+2026-05-16 00:26:59,957 | WARNING | louvores.services.import_service | Hino não encontrado: CC-523
+2026-05-16 00:26:59,957 | WARNING | louvores.services.import_service | Hino não encontrado: CC-524
+2026-05-16 00:26:59,958 | WARNING | louvores.services.import_service | Hino não encontrado: CC-525
+2026-05-16 00:26:59,959 | WARNING | louvores.services.import_service | Hino não encontrado: CC-527
+2026-05-16 00:26:59,959 | WARNING | louvores.services.import_service | Hino não encontrado: CC-529
+2026-05-16 00:26:59,960 | WARNING | louvores.services.import_service | Hino não encontrado: CC-530
+2026-05-16 00:26:59,960 | WARNING | louvores.services.import_service | Hino não encontrado: CC-531
+2026-05-16 00:26:59,961 | WARNING | louvores.services.import_service | Hino não encontrado: CC-532
+2026-05-16 00:26:59,961 | WARNING | louvores.services.import_service | Hino não encontrado: CC-533
+2026-05-16 00:26:59,962 | WARNING | louvores.services.import_service | Hino não encontrado: CC-534
+2026-05-16 00:26:59,963 | WARNING | louvores.services.import_service | Hino não encontrado: CC-536
+2026-05-16 00:26:59,964 | WARNING | louvores.services.import_service | Hino não encontrado: CC-537
+2026-05-16 00:26:59,965 | WARNING | louvores.services.import_service | Hino não encontrado: CC-538
+2026-05-16 00:26:59,966 | WARNING | louvores.services.import_service | Hino não encontrado: CC-539
+2026-05-16 00:26:59,966 | WARNING | louvores.services.import_service | Hino não encontrado: CC-540
+2026-05-16 00:26:59,967 | WARNING | louvores.services.import_service | Hino não encontrado: CC-541
+2026-05-16 00:26:59,967 | WARNING | louvores.services.import_service | Hino não encontrado: CC-542
+2026-05-16 00:26:59,968 | WARNING | louvores.services.import_service | Hino não encontrado: CC-560
+2026-05-16 00:26:59,968 | WARNING | louvores.services.import_service | Hino não encontrado: CC-580
+2026-05-16 00:26:59,969 | WARNING | louvores.services.import_service | Hino não encontrado: CC-581
+2026-05-16 00:26:59,969 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-05-16 00:26:59,971 | WARNING | louvores.services.import_service | Hino não encontrado: HCC-001
+2026-05-16 00:26:59,972 | WARNING | louvores.services.import_service | Hino não encontrado: HCC-002
+2026-05-16 00:26:59,973 | WARNING | louvores.services.import_service | Hino não encontrado: HCC-004
+2026-05-16 00:26:59,973 | WARNING | louvores.services.import_service | Hino não encontrado: HCC-006
+2026-05-16 00:26:59,974 | WARNING | louvores.services.import_service | Hino não encontrado: HCC-008
+2026-05-16 00:26:59,974 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-05-16 00:26:59,977 | WARNING | louvores.services.import_service | Hino não encontrado: HL-002
+2026-05-16 00:26:59,977 | WARNING | louvores.services.import_service | Hino não encontrado: HL-001
+2026-05-16 00:26:59,978 | WARNING | louvores.services.import_service | Hino não encontrado: HL-003
+2026-05-16 00:26:59,978 | WARNING | louvores.services.import_service | Hino não encontrado: HL-005
+2026-05-16 00:26:59,979 | WARNING | louvores.services.import_service | Hino não encontrado: HL-009
+2026-05-16 00:26:59,980 | WARNING | louvores.services.import_service | Hino não encontrado: HL-010
+2026-05-16 00:26:59,981 | WARNING | louvores.services.import_service | Hino não encontrado: HL-011
+2026-05-16 00:26:59,982 | WARNING | louvores.services.import_service | Hino não encontrado: HL-014
+2026-05-16 00:26:59,983 | WARNING | louvores.services.import_service | Hino não encontrado: HL-019
+2026-05-16 00:26:59,984 | WARNING | louvores.services.import_service | Hino não encontrado: HL-022
+2026-05-16 00:26:59,984 | WARNING | louvores.services.import_service | Hino não encontrado: HL-027
+2026-05-16 00:26:59,985 | WARNING | louvores.services.import_service | Hino não encontrado: HL-028
+2026-05-16 00:26:59,985 | WARNING | louvores.services.import_service | Hino não encontrado: HL-031
+2026-05-16 00:26:59,986 | WARNING | louvores.services.import_service | Hino não encontrado: HL-033
+2026-05-16 00:26:59,986 | WARNING | louvores.services.import_service | Hino não encontrado: HL-041
+2026-05-16 00:26:59,987 | WARNING | louvores.services.import_service | Hino não encontrado: HL-047
+2026-05-16 00:26:59,988 | WARNING | louvores.services.import_service | Hino não encontrado: HL-053
+2026-05-16 00:26:59,988 | WARNING | louvores.services.import_service | Hino não encontrado: HL-055
+2026-05-16 00:26:59,989 | WARNING | louvores.services.import_service | Hino não encontrado: HL-056
+2026-05-16 00:26:59,989 | WARNING | louvores.services.import_service | Hino não encontrado: HL-058
+2026-05-16 00:26:59,990 | WARNING | louvores.services.import_service | Hino não encontrado: HL-063
+2026-05-16 00:26:59,990 | WARNING | louvores.services.import_service | Hino não encontrado: HL-070
+2026-05-16 00:26:59,991 | WARNING | louvores.services.import_service | Hino não encontrado: HL-078
+2026-05-16 00:26:59,992 | WARNING | louvores.services.import_service | Hino não encontrado: HL-085
+2026-05-16 00:26:59,992 | WARNING | louvores.services.import_service | Hino não encontrado: HL-086
+2026-05-16 00:26:59,993 | WARNING | louvores.services.import_service | Hino não encontrado: HL-091
+2026-05-16 00:26:59,994 | WARNING | louvores.services.import_service | Hino não encontrado: HL-098
+2026-05-16 00:26:59,994 | WARNING | louvores.services.import_service | Hino não encontrado: HL-101
+2026-05-16 00:26:59,995 | WARNING | louvores.services.import_service | Hino não encontrado: HL-105
+2026-05-16 00:26:59,995 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-05-16 00:26:59,998 | WARNING | louvores.services.import_service | Hino não encontrado: VM-018
+2026-05-16 00:26:59,999 | WARNING | louvores.services.import_service | Hino não encontrado: VM-102
+2026-05-16 00:26:59,999 | WARNING | louvores.services.import_service | Hino não encontrado: VM-351
+2026-05-16 00:27:00,000 | WARNING | louvores.services.import_service | Hino não encontrado: VM-369
+2026-05-16 00:27:00,001 | WARNING | louvores.services.import_service | Hino não encontrado: VM-379
+2026-05-16 00:27:00,001 | WARNING | louvores.services.import_service | Hino não encontrado: VM-402
+2026-05-16 00:27:00,002 | WARNING | louvores.services.import_service | Hino não encontrado: VM-403
+2026-05-16 00:27:00,002 | WARNING | louvores.services.import_service | Hino não encontrado: VM-409
+2026-05-16 00:27:00,003 | WARNING | louvores.services.import_service | Hino não encontrado: VM-001
+2026-05-16 00:27:00,003 | WARNING | louvores.services.import_service | Hino não encontrado: VM-041
+2026-05-16 00:27:00,005 | WARNING | louvores.services.import_service | Hino não encontrado: VM-072
+2026-05-16 00:27:00,006 | WARNING | louvores.services.import_service | Hino não encontrado: VM-182
+2026-05-16 00:27:00,007 | WARNING | louvores.services.import_service | Hino não encontrado: VM-232
+2026-05-16 00:27:00,008 | WARNING | louvores.services.import_service | Hino não encontrado: VM-260
+2026-05-16 00:27:00,009 | WARNING | louvores.services.import_service | Hino não encontrado: VM-262
+2026-05-16 00:27:00,010 | WARNING | louvores.services.import_service | Hino não encontrado: VM-278
+2026-05-16 00:27:00,010 | WARNING | louvores.services.import_service | Hino não encontrado: VM-279
+2026-05-16 00:27:00,011 | WARNING | louvores.services.import_service | Hino não encontrado: VM-304
+2026-05-16 00:27:00,012 | WARNING | louvores.services.import_service | Hino não encontrado: VM-310
+2026-05-16 00:27:00,013 | WARNING | louvores.services.import_service | Hino não encontrado: VM-321
+2026-05-16 00:27:00,014 | WARNING | louvores.services.import_service | Hino não encontrado: VM-337
+2026-05-16 00:27:00,014 | INFO | louvores.services.import_service | Importação concluída!
+2026-05-16 00:27:00,014 | INFO | louvores.services.import_service | total_atualizados: 0
+2026-05-16 00:27:00,015 | INFO | louvores.services.import_service | total_ignorados: 0
+2026-05-16 00:27:00,015 | INFO | louvores.services.import_service | total_nao_encontrados: 469
+2026-05-16 00:27:06,855 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-05-16 00:27:31,925 | INFO | louvores.services.import_service | Importando dados de data\data_to_load.csv
+2026-05-16 05:16:06,481 | INFO | louvores.services.import_service | Importando dados de data\data_to_load.csv
+2026-05-16 05:16:25,377 | INFO | louvores.services.import_service | Importando dados de data\data_to_load.csv
+2026-05-16 05:16:49,838 | INFO | louvores.services.import_service | Importação concluída!
+2026-05-16 05:17:07,513 | INFO | louvores.services.stats_service | Estatísticas calculadas!
+2026-05-16 05:17:16,132 | INFO | louvores.services.import_service | Processando: CC.zip
+2026-05-16 05:17:16,159 | INFO | louvores.services.import_service | Letra do hino CC-001 carregada!
+2026-05-16 05:17:16,178 | INFO | louvores.services.import_service | Letra do hino CC-002 carregada!
+2026-05-16 05:17:16,198 | INFO | louvores.services.import_service | Letra do hino CC-003 carregada!
+2026-05-16 05:17:16,218 | INFO | louvores.services.import_service | Letra do hino CC-004 carregada!
+2026-05-16 05:17:16,233 | INFO | louvores.services.import_service | Letra do hino CC-005 carregada!
+2026-05-16 05:17:16,254 | INFO | louvores.services.import_service | Letra do hino CC-006 carregada!
+2026-05-16 05:17:16,274 | INFO | louvores.services.import_service | Letra do hino CC-007 carregada!
+2026-05-16 05:17:16,293 | INFO | louvores.services.import_service | Letra do hino CC-008 carregada!
+2026-05-16 05:17:16,314 | INFO | louvores.services.import_service | Letra do hino CC-009 carregada!
+2026-05-16 05:17:16,333 | INFO | louvores.services.import_service | Letra do hino CC-010 carregada!
+2026-05-16 05:17:16,353 | INFO | louvores.services.import_service | Letra do hino CC-227 carregada!
+2026-05-16 05:17:16,374 | INFO | louvores.services.import_service | Letra do hino CC-579 carregada!
+2026-05-16 05:17:16,394 | INFO | louvores.services.import_service | Letra do hino CC-013 carregada!
+2026-05-16 05:17:16,413 | INFO | louvores.services.import_service | Letra do hino CC-123 carregada!
+2026-05-16 05:17:16,433 | INFO | louvores.services.import_service | Letra do hino CC-168 carregada!
+2026-05-16 05:17:16,449 | INFO | louvores.services.import_service | Letra do hino CC-046 carregada!
+2026-05-16 05:17:16,469 | INFO | louvores.services.import_service | Letra do hino CC-328 carregada!
+2026-05-16 05:17:16,489 | INFO | louvores.services.import_service | Letra do hino CC-011 carregada!
+2026-05-16 05:17:16,508 | INFO | louvores.services.import_service | Letra do hino CC-012 carregada!
+2026-05-16 05:17:16,528 | INFO | louvores.services.import_service | Letra do hino CC-014 carregada!
+2026-05-16 05:17:16,548 | INFO | louvores.services.import_service | Letra do hino CC-015 carregada!
+2026-05-16 05:17:16,563 | INFO | louvores.services.import_service | Letra do hino CC-016 carregada!
+2026-05-16 05:17:16,578 | INFO | louvores.services.import_service | Letra do hino CC-017 carregada!
+2026-05-16 05:17:16,590 | INFO | louvores.services.import_service | Letra do hino CC-019 carregada!
+2026-05-16 05:17:16,608 | INFO | louvores.services.import_service | Letra do hino CC-020 carregada!
+2026-05-16 05:17:16,629 | INFO | louvores.services.import_service | Letra do hino CC-022 carregada!
+2026-05-16 05:17:16,639 | INFO | louvores.services.import_service | Letra do hino CC-025 carregada!
+2026-05-16 05:17:16,659 | INFO | louvores.services.import_service | Letra do hino CC-026 carregada!
+2026-05-16 05:17:16,679 | INFO | louvores.services.import_service | Letra do hino CC-028 carregada!
+2026-05-16 05:17:16,698 | INFO | louvores.services.import_service | Letra do hino CC-030 carregada!
+2026-05-16 05:17:16,718 | INFO | louvores.services.import_service | Letra do hino CC-031 carregada!
+2026-05-16 05:17:16,739 | INFO | louvores.services.import_service | Letra do hino CC-032 carregada!
+2026-05-16 05:17:16,758 | INFO | louvores.services.import_service | Letra do hino CC-033 carregada!
+2026-05-16 05:17:16,778 | INFO | louvores.services.import_service | Letra do hino CC-034 carregada!
+2026-05-16 05:17:16,793 | INFO | louvores.services.import_service | Letra do hino CC-035 carregada!
+2026-05-16 05:17:16,813 | INFO | louvores.services.import_service | Letra do hino CC-040 carregada!
+2026-05-16 05:17:16,834 | INFO | louvores.services.import_service | Letra do hino CC-041 carregada!
+2026-05-16 05:17:16,849 | INFO | louvores.services.import_service | Letra do hino CC-042 carregada!
+2026-05-16 05:17:16,868 | INFO | louvores.services.import_service | Letra do hino CC-044 carregada!
+2026-05-16 05:17:16,888 | INFO | louvores.services.import_service | Letra do hino CC-048 carregada!
+2026-05-16 05:17:16,903 | INFO | louvores.services.import_service | Letra do hino CC-049 carregada!
+2026-05-16 05:17:16,923 | INFO | louvores.services.import_service | Letra do hino CC-050 carregada!
+2026-05-16 05:17:16,938 | INFO | louvores.services.import_service | Letra do hino CC-051 carregada!
+2026-05-16 05:17:16,953 | INFO | louvores.services.import_service | Letra do hino CC-052 carregada!
+2026-05-16 05:17:16,968 | INFO | louvores.services.import_service | Letra do hino CC-053 carregada!
+2026-05-16 05:17:16,983 | INFO | louvores.services.import_service | Letra do hino CC-054 carregada!
+2026-05-16 05:17:16,998 | INFO | louvores.services.import_service | Letra do hino CC-056 carregada!
+2026-05-16 05:17:17,014 | INFO | louvores.services.import_service | Letra do hino CC-057 carregada!
+2026-05-16 05:17:17,034 | INFO | louvores.services.import_service | Letra do hino CC-058 carregada!
+2026-05-16 05:17:17,049 | INFO | louvores.services.import_service | Letra do hino CC-060 carregada!
+2026-05-16 05:17:17,074 | INFO | louvores.services.import_service | Letra do hino CC-061 carregada!
+2026-05-16 05:17:17,094 | INFO | louvores.services.import_service | Letra do hino CC-062 carregada!
+2026-05-16 05:17:17,109 | INFO | louvores.services.import_service | Letra do hino CC-063 carregada!
+2026-05-16 05:17:17,129 | INFO | louvores.services.import_service | Letra do hino CC-064 carregada!
+2026-05-16 05:17:17,154 | INFO | louvores.services.import_service | Letra do hino CC-065 carregada!
+2026-05-16 05:17:17,174 | INFO | louvores.services.import_service | Letra do hino CC-067 carregada!
+2026-05-16 05:17:17,194 | INFO | louvores.services.import_service | Letra do hino CC-068 carregada!
+2026-05-16 05:17:17,214 | INFO | louvores.services.import_service | Letra do hino CC-070 carregada!
+2026-05-16 05:17:17,233 | INFO | louvores.services.import_service | Letra do hino CC-072 carregada!
+2026-05-16 05:17:17,254 | INFO | louvores.services.import_service | Letra do hino CC-073 carregada!
+2026-05-16 05:17:17,269 | INFO | louvores.services.import_service | Letra do hino CC-074 carregada!
+2026-05-16 05:17:17,284 | INFO | louvores.services.import_service | Letra do hino CC-076 carregada!
+2026-05-16 05:17:17,299 | INFO | louvores.services.import_service | Letra do hino CC-078 carregada!
+2026-05-16 05:17:17,318 | INFO | louvores.services.import_service | Letra do hino CC-080 carregada!
+2026-05-16 05:17:17,334 | INFO | louvores.services.import_service | Letra do hino CC-082 carregada!
+2026-05-16 05:17:17,346 | INFO | louvores.services.import_service | Letra do hino CC-084 carregada!
+2026-05-16 05:17:17,364 | INFO | louvores.services.import_service | Letra do hino CC-085 carregada!
+2026-05-16 05:17:17,383 | INFO | louvores.services.import_service | Letra do hino CC-086 carregada!
+2026-05-16 05:17:17,394 | INFO | louvores.services.import_service | Letra do hino CC-087 carregada!
+2026-05-16 05:17:17,414 | INFO | louvores.services.import_service | Letra do hino CC-088 carregada!
+2026-05-16 05:17:17,434 | INFO | louvores.services.import_service | Letra do hino CC-089 carregada!
+2026-05-16 05:17:17,449 | INFO | louvores.services.import_service | Letra do hino CC-090 carregada!
+2026-05-16 05:17:17,468 | INFO | louvores.services.import_service | Letra do hino CC-091 carregada!
+2026-05-16 05:17:17,484 | INFO | louvores.services.import_service | Letra do hino CC-092 carregada!
+2026-05-16 05:17:17,504 | INFO | louvores.services.import_service | Letra do hino CC-096 carregada!
+2026-05-16 05:17:17,524 | INFO | louvores.services.import_service | Letra do hino CC-097 carregada!
+2026-05-16 05:17:17,544 | INFO | louvores.services.import_service | Letra do hino CC-098 carregada!
+2026-05-16 05:17:17,559 | INFO | louvores.services.import_service | Letra do hino CC-099 carregada!
+2026-05-16 05:17:17,579 | INFO | louvores.services.import_service | Letra do hino CC-100 carregada!
+2026-05-16 05:17:17,599 | INFO | louvores.services.import_service | Letra do hino CC-101 carregada!
+2026-05-16 05:17:17,619 | INFO | louvores.services.import_service | Letra do hino CC-102 carregada!
+2026-05-16 05:17:17,639 | INFO | louvores.services.import_service | Letra do hino CC-103 carregada!
+2026-05-16 05:17:17,659 | INFO | louvores.services.import_service | Letra do hino CC-105 carregada!
+2026-05-16 05:17:17,679 | INFO | louvores.services.import_service | Letra do hino CC-107 carregada!
+2026-05-16 05:17:17,694 | INFO | louvores.services.import_service | Letra do hino CC-109 carregada!
+2026-05-16 05:17:17,714 | INFO | louvores.services.import_service | Letra do hino CC-110 carregada!
+2026-05-16 05:17:17,734 | INFO | louvores.services.import_service | Letra do hino CC-111 carregada!
+2026-05-16 05:17:17,754 | INFO | louvores.services.import_service | Letra do hino CC-114 carregada!
+2026-05-16 05:17:17,774 | INFO | louvores.services.import_service | Letra do hino CC-115 carregada!
+2026-05-16 05:17:17,789 | INFO | louvores.services.import_service | Letra do hino CC-116 carregada!
+2026-05-16 05:17:17,809 | INFO | louvores.services.import_service | Letra do hino CC-117 carregada!
+2026-05-16 05:17:17,829 | INFO | louvores.services.import_service | Letra do hino CC-118 carregada!
+2026-05-16 05:17:17,849 | INFO | louvores.services.import_service | Letra do hino CC-119 carregada!
+2026-05-16 05:17:17,869 | INFO | louvores.services.import_service | Letra do hino CC-120 carregada!
+2026-05-16 05:17:17,884 | INFO | louvores.services.import_service | Letra do hino CC-121 carregada!
+2026-05-16 05:17:17,904 | INFO | louvores.services.import_service | Letra do hino CC-122 carregada!
+2026-05-16 05:17:17,919 | INFO | louvores.services.import_service | Letra do hino CC-124 carregada!
+2026-05-16 05:17:17,939 | INFO | louvores.services.import_service | Letra do hino CC-125 carregada!
+2026-05-16 05:17:17,999 | INFO | louvores.services.import_service | Letra do hino CC-126 carregada!
+2026-05-16 05:17:18,019 | INFO | louvores.services.import_service | Letra do hino CC-127 carregada!
+2026-05-16 05:17:18,039 | INFO | louvores.services.import_service | Letra do hino CC-128 carregada!
+2026-05-16 05:17:18,054 | INFO | louvores.services.import_service | Letra do hino CC-129 carregada!
+2026-05-16 05:17:18,069 | INFO | louvores.services.import_service | Letra do hino CC-130 carregada!
+2026-05-16 05:17:18,084 | INFO | louvores.services.import_service | Letra do hino CC-132 carregada!
+2026-05-16 05:17:18,099 | INFO | louvores.services.import_service | Letra do hino CC-133 carregada!
+2026-05-16 05:17:18,119 | INFO | louvores.services.import_service | Letra do hino CC-134 carregada!
+2026-05-16 05:17:18,139 | INFO | louvores.services.import_service | Letra do hino CC-135 carregada!
+2026-05-16 05:17:18,159 | INFO | louvores.services.import_service | Letra do hino CC-136 carregada!
+2026-05-16 05:17:18,179 | INFO | louvores.services.import_service | Letra do hino CC-137 carregada!
+2026-05-16 05:17:18,199 | INFO | louvores.services.import_service | Letra do hino CC-138 carregada!
+2026-05-16 05:17:18,219 | INFO | louvores.services.import_service | Letra do hino CC-139 carregada!
+2026-05-16 05:17:18,234 | INFO | louvores.services.import_service | Letra do hino CC-141 carregada!
+2026-05-16 05:17:18,254 | INFO | louvores.services.import_service | Letra do hino CC-142 carregada!
+2026-05-16 05:17:18,269 | INFO | louvores.services.import_service | Letra do hino CC-143 carregada!
+2026-05-16 05:17:18,289 | INFO | louvores.services.import_service | Letra do hino CC-144 carregada!
+2026-05-16 05:17:18,304 | INFO | louvores.services.import_service | Letra do hino CC-145 carregada!
+2026-05-16 05:17:18,324 | INFO | louvores.services.import_service | Letra do hino CC-146 carregada!
+2026-05-16 05:17:18,345 | INFO | louvores.services.import_service | Letra do hino CC-147 carregada!
+2026-05-16 05:17:18,364 | INFO | louvores.services.import_service | Letra do hino CC-148 carregada!
+2026-05-16 05:17:18,384 | INFO | louvores.services.import_service | Letra do hino CC-149 carregada!
+2026-05-16 05:17:18,399 | INFO | louvores.services.import_service | Letra do hino CC-150 carregada!
+2026-05-16 05:17:18,419 | INFO | louvores.services.import_service | Letra do hino CC-151 carregada!
+2026-05-16 05:17:18,434 | INFO | louvores.services.import_service | Letra do hino CC-152 carregada!
+2026-05-16 05:17:18,449 | INFO | louvores.services.import_service | Letra do hino CC-153 carregada!
+2026-05-16 05:17:18,469 | INFO | louvores.services.import_service | Letra do hino CC-154 carregada!
+2026-05-16 05:17:18,484 | INFO | louvores.services.import_service | Letra do hino CC-157 carregada!
+2026-05-16 05:17:18,499 | INFO | louvores.services.import_service | Letra do hino CC-158 carregada!
+2026-05-16 05:17:18,519 | INFO | louvores.services.import_service | Letra do hino CC-159 carregada!
+2026-05-16 05:17:18,534 | INFO | louvores.services.import_service | Letra do hino CC-161 carregada!
+2026-05-16 05:17:18,554 | INFO | louvores.services.import_service | Letra do hino CC-162 carregada!
+2026-05-16 05:17:18,569 | INFO | louvores.services.import_service | Letra do hino CC-163 carregada!
+2026-05-16 05:17:18,584 | INFO | louvores.services.import_service | Letra do hino CC-164 carregada!
+2026-05-16 05:17:18,599 | INFO | louvores.services.import_service | Letra do hino CC-165 carregada!
+2026-05-16 05:17:18,619 | INFO | louvores.services.import_service | Letra do hino CC-166 carregada!
+2026-05-16 05:17:18,639 | INFO | louvores.services.import_service | Letra do hino CC-167 carregada!
+2026-05-16 05:17:18,659 | INFO | louvores.services.import_service | Letra do hino CC-169 carregada!
+2026-05-16 05:17:18,679 | INFO | louvores.services.import_service | Letra do hino CC-170 carregada!
+2026-05-16 05:17:18,699 | INFO | louvores.services.import_service | Letra do hino CC-171 carregada!
+2026-05-16 05:17:18,714 | INFO | louvores.services.import_service | Letra do hino CC-172 carregada!
+2026-05-16 05:17:18,734 | INFO | louvores.services.import_service | Letra do hino CC-173 carregada!
+2026-05-16 05:17:18,754 | INFO | louvores.services.import_service | Letra do hino CC-175 carregada!
+2026-05-16 05:17:18,769 | INFO | louvores.services.import_service | Letra do hino CC-176 carregada!
+2026-05-16 05:17:18,784 | INFO | louvores.services.import_service | Letra do hino CC-177 carregada!
+2026-05-16 05:17:18,799 | INFO | louvores.services.import_service | Letra do hino CC-178 carregada!
+2026-05-16 05:17:18,819 | INFO | louvores.services.import_service | Letra do hino CC-179 carregada!
+2026-05-16 05:17:18,839 | INFO | louvores.services.import_service | Letra do hino CC-180 carregada!
+2026-05-16 05:17:18,859 | INFO | louvores.services.import_service | Letra do hino CC-181 carregada!
+2026-05-16 05:17:18,879 | INFO | louvores.services.import_service | Letra do hino CC-183 carregada!
+2026-05-16 05:17:18,899 | INFO | louvores.services.import_service | Letra do hino CC-185 carregada!
+2026-05-16 05:17:18,919 | INFO | louvores.services.import_service | Letra do hino CC-187 carregada!
+2026-05-16 05:17:18,939 | INFO | louvores.services.import_service | Letra do hino CC-188 carregada!
+2026-05-16 05:17:18,959 | INFO | louvores.services.import_service | Letra do hino CC-189 carregada!
+2026-05-16 05:17:18,979 | INFO | louvores.services.import_service | Letra do hino CC-191 carregada!
+2026-05-16 05:17:18,995 | INFO | louvores.services.import_service | Letra do hino CC-194 carregada!
+2026-05-16 05:17:19,014 | INFO | louvores.services.import_service | Letra do hino CC-196 carregada!
+2026-05-16 05:17:19,035 | INFO | louvores.services.import_service | Letra do hino CC-197 carregada!
+2026-05-16 05:17:19,055 | INFO | louvores.services.import_service | Letra do hino CC-198 carregada!
+2026-05-16 05:17:19,079 | INFO | louvores.services.import_service | Letra do hino CC-199 carregada!
+2026-05-16 05:17:19,099 | INFO | louvores.services.import_service | Letra do hino CC-200 carregada!
+2026-05-16 05:17:19,120 | INFO | louvores.services.import_service | Letra do hino CC-202 carregada!
+2026-05-16 05:17:19,139 | INFO | louvores.services.import_service | Letra do hino CC-203 carregada!
+2026-05-16 05:17:19,164 | INFO | louvores.services.import_service | Letra do hino CC-206 carregada!
+2026-05-16 05:17:19,184 | INFO | louvores.services.import_service | Letra do hino CC-207 carregada!
+2026-05-16 05:17:19,199 | INFO | louvores.services.import_service | Letra do hino CC-208 carregada!
+2026-05-16 05:17:19,220 | INFO | louvores.services.import_service | Letra do hino CC-209 carregada!
+2026-05-16 05:17:19,239 | INFO | louvores.services.import_service | Letra do hino CC-210 carregada!
+2026-05-16 05:17:19,259 | INFO | louvores.services.import_service | Letra do hino CC-212 carregada!
+2026-05-16 05:17:19,279 | INFO | louvores.services.import_service | Letra do hino CC-215 carregada!
+2026-05-16 05:17:19,309 | INFO | louvores.services.import_service | Letra do hino CC-216 carregada!
+2026-05-16 05:17:19,335 | INFO | louvores.services.import_service | Letra do hino CC-219 carregada!
+2026-05-16 05:17:19,354 | INFO | louvores.services.import_service | Letra do hino CC-220 carregada!
+2026-05-16 05:17:19,375 | INFO | louvores.services.import_service | Letra do hino CC-221 carregada!
+2026-05-16 05:17:19,395 | INFO | louvores.services.import_service | Letra do hino CC-222 carregada!
+2026-05-16 05:17:19,414 | INFO | louvores.services.import_service | Letra do hino CC-223 carregada!
+2026-05-16 05:17:19,434 | INFO | louvores.services.import_service | Letra do hino CC-225 carregada!
+2026-05-16 05:17:19,455 | INFO | louvores.services.import_service | Letra do hino CC-226 carregada!
+2026-05-16 05:17:19,475 | INFO | louvores.services.import_service | Letra do hino CC-228 carregada!
+2026-05-16 05:17:19,495 | INFO | louvores.services.import_service | Letra do hino CC-229 carregada!
+2026-05-16 05:17:19,514 | INFO | louvores.services.import_service | Letra do hino CC-233 carregada!
+2026-05-16 05:17:19,535 | INFO | louvores.services.import_service | Letra do hino CC-234 carregada!
+2026-05-16 05:17:19,555 | INFO | louvores.services.import_service | Letra do hino CC-235 carregada!
+2026-05-16 05:17:19,574 | INFO | louvores.services.import_service | Letra do hino CC-237 carregada!
+2026-05-16 05:17:19,595 | INFO | louvores.services.import_service | Letra do hino CC-240 carregada!
+2026-05-16 05:17:19,614 | INFO | louvores.services.import_service | Letra do hino CC-242 carregada!
+2026-05-16 05:17:19,634 | INFO | louvores.services.import_service | Letra do hino CC-243 carregada!
+2026-05-16 05:17:19,649 | INFO | louvores.services.import_service | Letra do hino CC-244 carregada!
+2026-05-16 05:17:19,669 | INFO | louvores.services.import_service | Letra do hino CC-245 carregada!
+2026-05-16 05:17:19,689 | INFO | louvores.services.import_service | Letra do hino CC-246 carregada!
+2026-05-16 05:17:19,705 | INFO | louvores.services.import_service | Letra do hino CC-247 carregada!
+2026-05-16 05:17:19,724 | INFO | louvores.services.import_service | Letra do hino CC-248 carregada!
+2026-05-16 05:17:19,745 | INFO | louvores.services.import_service | Letra do hino CC-249 carregada!
+2026-05-16 05:17:19,762 | INFO | louvores.services.import_service | Letra do hino CC-253 carregada!
+2026-05-16 05:17:19,779 | INFO | louvores.services.import_service | Letra do hino CC-254 carregada!
+2026-05-16 05:17:19,799 | INFO | louvores.services.import_service | Letra do hino CC-258 carregada!
+2026-05-16 05:17:19,815 | INFO | louvores.services.import_service | Letra do hino CC-259 carregada!
+2026-05-16 05:17:19,835 | INFO | louvores.services.import_service | Letra do hino CC-260 carregada!
+2026-05-16 05:17:19,854 | INFO | louvores.services.import_service | Letra do hino CC-261 carregada!
+2026-05-16 05:17:19,869 | INFO | louvores.services.import_service | Letra do hino CC-262 carregada!
+2026-05-16 05:17:19,884 | INFO | louvores.services.import_service | Letra do hino CC-264 carregada!
+2026-05-16 05:17:19,904 | INFO | louvores.services.import_service | Letra do hino CC-267 carregada!
+2026-05-16 05:17:19,920 | INFO | louvores.services.import_service | Letra do hino CC-268 carregada!
+2026-05-16 05:17:19,939 | INFO | louvores.services.import_service | Letra do hino CC-269 carregada!
+2026-05-16 05:17:19,960 | INFO | louvores.services.import_service | Letra do hino CC-270 carregada!
+2026-05-16 05:17:19,979 | INFO | louvores.services.import_service | Letra do hino CC-271 carregada!
+2026-05-16 05:17:20,000 | INFO | louvores.services.import_service | Letra do hino CC-272 carregada!
+2026-05-16 05:17:20,020 | INFO | louvores.services.import_service | Letra do hino CC-273 carregada!
+2026-05-16 05:17:20,040 | INFO | louvores.services.import_service | Letra do hino CC-274 carregada!
+2026-05-16 05:17:20,059 | INFO | louvores.services.import_service | Letra do hino CC-275 carregada!
+2026-05-16 05:17:20,080 | INFO | louvores.services.import_service | Letra do hino CC-276 carregada!
+2026-05-16 05:17:20,100 | INFO | louvores.services.import_service | Letra do hino CC-277 carregada!
+2026-05-16 05:17:20,120 | INFO | louvores.services.import_service | Letra do hino CC-278 carregada!
+2026-05-16 05:17:20,140 | INFO | louvores.services.import_service | Letra do hino CC-279 carregada!
+2026-05-16 05:17:20,160 | INFO | louvores.services.import_service | Letra do hino CC-280 carregada!
+2026-05-16 05:17:20,180 | INFO | louvores.services.import_service | Letra do hino CC-281 carregada!
+2026-05-16 05:17:20,200 | INFO | louvores.services.import_service | Letra do hino CC-282 carregada!
+2026-05-16 05:17:20,219 | INFO | louvores.services.import_service | Letra do hino CC-284 carregada!
+2026-05-16 05:17:20,240 | INFO | louvores.services.import_service | Letra do hino CC-285 carregada!
+2026-05-16 05:17:20,259 | INFO | louvores.services.import_service | Letra do hino CC-286 carregada!
+2026-05-16 05:17:20,280 | INFO | louvores.services.import_service | Letra do hino CC-287 carregada!
+2026-05-16 05:17:20,300 | INFO | louvores.services.import_service | Letra do hino CC-289 carregada!
+2026-05-16 05:17:20,319 | INFO | louvores.services.import_service | Letra do hino CC-290 carregada!
+2026-05-16 05:17:20,340 | INFO | louvores.services.import_service | Letra do hino CC-292 carregada!
+2026-05-16 05:17:20,352 | INFO | louvores.services.import_service | Letra do hino CC-293 carregada!
+2026-05-16 05:17:20,370 | INFO | louvores.services.import_service | Letra do hino CC-294 carregada!
+2026-05-16 05:17:20,385 | INFO | louvores.services.import_service | Letra do hino CC-295 carregada!
+2026-05-16 05:17:20,404 | INFO | louvores.services.import_service | Letra do hino CC-296 carregada!
+2026-05-16 05:17:20,420 | INFO | louvores.services.import_service | Letra do hino CC-297 carregada!
+2026-05-16 05:17:20,439 | INFO | louvores.services.import_service | Letra do hino CC-299 carregada!
+2026-05-16 05:17:20,460 | INFO | louvores.services.import_service | Letra do hino CC-300 carregada!
+2026-05-16 05:17:20,480 | INFO | louvores.services.import_service | Letra do hino CC-301 carregada!
+2026-05-16 05:17:20,500 | INFO | louvores.services.import_service | Letra do hino CC-302 carregada!
+2026-05-16 05:17:20,519 | INFO | louvores.services.import_service | Letra do hino CC-303 carregada!
+2026-05-16 05:17:20,540 | INFO | louvores.services.import_service | Letra do hino CC-304 carregada!
+2026-05-16 05:17:20,560 | INFO | louvores.services.import_service | Letra do hino CC-306 carregada!
+2026-05-16 05:17:20,580 | INFO | louvores.services.import_service | Letra do hino CC-307 carregada!
+2026-05-16 05:17:20,599 | INFO | louvores.services.import_service | Letra do hino CC-308 carregada!
+2026-05-16 05:17:20,620 | INFO | louvores.services.import_service | Letra do hino CC-309 carregada!
+2026-05-16 05:17:20,640 | INFO | louvores.services.import_service | Letra do hino CC-310 carregada!
+2026-05-16 05:17:20,660 | INFO | louvores.services.import_service | Letra do hino CC-311 carregada!
+2026-05-16 05:17:20,680 | INFO | louvores.services.import_service | Letra do hino CC-313 carregada!
+2026-05-16 05:17:20,700 | INFO | louvores.services.import_service | Letra do hino CC-314 carregada!
+2026-05-16 05:17:20,715 | INFO | louvores.services.import_service | Letra do hino CC-315 carregada!
+2026-05-16 05:17:20,735 | INFO | louvores.services.import_service | Letra do hino CC-316 carregada!
+2026-05-16 05:17:20,755 | INFO | louvores.services.import_service | Letra do hino CC-317 carregada!
+2026-05-16 05:17:20,769 | INFO | louvores.services.import_service | Letra do hino CC-320 carregada!
+2026-05-16 05:17:20,789 | INFO | louvores.services.import_service | Letra do hino CC-321 carregada!
+2026-05-16 05:17:20,810 | INFO | louvores.services.import_service | Letra do hino CC-322 carregada!
+2026-05-16 05:17:20,829 | INFO | louvores.services.import_service | Letra do hino CC-323 carregada!
+2026-05-16 05:17:20,850 | INFO | louvores.services.import_service | Letra do hino CC-326 carregada!
+2026-05-16 05:17:20,870 | INFO | louvores.services.import_service | Letra do hino CC-331 carregada!
+2026-05-16 05:17:20,890 | INFO | louvores.services.import_service | Letra do hino CC-332 carregada!
+2026-05-16 05:17:20,905 | INFO | louvores.services.import_service | Letra do hino CC-334 carregada!
+2026-05-16 05:17:20,925 | INFO | louvores.services.import_service | Letra do hino CC-335 carregada!
+2026-05-16 05:17:20,945 | INFO | louvores.services.import_service | Letra do hino CC-336 carregada!
+2026-05-16 05:17:20,965 | INFO | louvores.services.import_service | Letra do hino CC-337 carregada!
+2026-05-16 05:17:20,985 | INFO | louvores.services.import_service | Letra do hino CC-338 carregada!
+2026-05-16 05:17:20,999 | INFO | louvores.services.import_service | Letra do hino CC-339 carregada!
+2026-05-16 05:17:21,015 | INFO | louvores.services.import_service | Letra do hino CC-341 carregada!
+2026-05-16 05:17:21,035 | INFO | louvores.services.import_service | Letra do hino CC-343 carregada!
+2026-05-16 05:17:21,055 | INFO | louvores.services.import_service | Letra do hino CC-348 carregada!
+2026-05-16 05:17:21,075 | INFO | louvores.services.import_service | Letra do hino CC-349 carregada!
+2026-05-16 05:17:21,095 | INFO | louvores.services.import_service | Letra do hino CC-351 carregada!
+2026-05-16 05:17:21,115 | INFO | louvores.services.import_service | Letra do hino CC-352 carregada!
+2026-05-16 05:17:21,135 | INFO | louvores.services.import_service | Letra do hino CC-354 carregada!
+2026-05-16 05:17:21,160 | INFO | louvores.services.import_service | Letra do hino CC-355 carregada!
+2026-05-16 05:17:21,180 | INFO | louvores.services.import_service | Letra do hino CC-356 carregada!
+2026-05-16 05:17:21,195 | INFO | louvores.services.import_service | Letra do hino CC-357 carregada!
+2026-05-16 05:17:21,215 | INFO | louvores.services.import_service | Letra do hino CC-360 carregada!
+2026-05-16 05:17:21,235 | INFO | louvores.services.import_service | Letra do hino CC-362 carregada!
+2026-05-16 05:17:21,250 | INFO | louvores.services.import_service | Letra do hino CC-363 carregada!
+2026-05-16 05:17:21,270 | INFO | louvores.services.import_service | Letra do hino CC-364 carregada!
+2026-05-16 05:17:21,290 | INFO | louvores.services.import_service | Letra do hino CC-365 carregada!
+2026-05-16 05:17:21,310 | INFO | louvores.services.import_service | Letra do hino CC-366 carregada!
+2026-05-16 05:17:21,330 | INFO | louvores.services.import_service | Letra do hino CC-367 carregada!
+2026-05-16 05:17:21,350 | INFO | louvores.services.import_service | Letra do hino CC-369 carregada!
+2026-05-16 05:17:21,370 | INFO | louvores.services.import_service | Letra do hino CC-370 carregada!
+2026-05-16 05:17:21,385 | INFO | louvores.services.import_service | Letra do hino CC-371 carregada!
+2026-05-16 05:17:21,400 | INFO | louvores.services.import_service | Letra do hino CC-372 carregada!
+2026-05-16 05:17:21,415 | INFO | louvores.services.import_service | Letra do hino CC-374 carregada!
+2026-05-16 05:17:21,430 | INFO | louvores.services.import_service | Letra do hino CC-375 carregada!
+2026-05-16 05:17:21,450 | INFO | louvores.services.import_service | Letra do hino CC-376 carregada!
+2026-05-16 05:17:21,470 | INFO | louvores.services.import_service | Letra do hino CC-378 carregada!
+2026-05-16 05:17:21,490 | INFO | louvores.services.import_service | Letra do hino CC-379 carregada!
+2026-05-16 05:17:21,505 | INFO | louvores.services.import_service | Letra do hino CC-380 carregada!
+2026-05-16 05:17:21,525 | INFO | louvores.services.import_service | Letra do hino CC-381 carregada!
+2026-05-16 05:17:21,546 | INFO | louvores.services.import_service | Letra do hino CC-384 carregada!
+2026-05-16 05:17:21,565 | INFO | louvores.services.import_service | Letra do hino CC-385 carregada!
+2026-05-16 05:17:21,585 | INFO | louvores.services.import_service | Letra do hino CC-386 carregada!
+2026-05-16 05:17:21,600 | INFO | louvores.services.import_service | Letra do hino CC-387 carregada!
+2026-05-16 05:17:21,620 | INFO | louvores.services.import_service | Letra do hino CC-388 carregada!
+2026-05-16 05:17:21,645 | INFO | louvores.services.import_service | Letra do hino CC-389 carregada!
+2026-05-16 05:17:21,680 | INFO | louvores.services.import_service | Letra do hino CC-390 carregada!
+2026-05-16 05:17:21,700 | INFO | louvores.services.import_service | Letra do hino CC-391 carregada!
+2026-05-16 05:17:21,720 | INFO | louvores.services.import_service | Letra do hino CC-392 carregada!
+2026-05-16 05:17:21,735 | INFO | louvores.services.import_service | Letra do hino CC-394 carregada!
+2026-05-16 05:17:21,755 | INFO | louvores.services.import_service | Letra do hino CC-395 carregada!
+2026-05-16 05:17:21,775 | INFO | louvores.services.import_service | Letra do hino CC-396 carregada!
+2026-05-16 05:17:21,795 | INFO | louvores.services.import_service | Letra do hino CC-397 carregada!
+2026-05-16 05:17:21,815 | INFO | louvores.services.import_service | Letra do hino CC-398 carregada!
+2026-05-16 05:17:21,835 | INFO | louvores.services.import_service | Letra do hino CC-399 carregada!
+2026-05-16 05:17:21,850 | INFO | louvores.services.import_service | Letra do hino CC-400 carregada!
+2026-05-16 05:17:21,865 | INFO | louvores.services.import_service | Letra do hino CC-401 carregada!
+2026-05-16 05:17:21,885 | INFO | louvores.services.import_service | Letra do hino CC-402 carregada!
+2026-05-16 05:17:21,905 | INFO | louvores.services.import_service | Letra do hino CC-403 carregada!
+2026-05-16 05:17:21,920 | INFO | louvores.services.import_service | Letra do hino CC-404 carregada!
+2026-05-16 05:17:21,935 | INFO | louvores.services.import_service | Letra do hino CC-405 carregada!
+2026-05-16 05:17:21,950 | INFO | louvores.services.import_service | Letra do hino CC-406 carregada!
+2026-05-16 05:17:21,975 | INFO | louvores.services.import_service | Letra do hino CC-407 carregada!
+2026-05-16 05:17:21,995 | INFO | louvores.services.import_service | Letra do hino CC-408 carregada!
+2026-05-16 05:17:22,015 | INFO | louvores.services.import_service | Letra do hino CC-409 carregada!
+2026-05-16 05:17:22,035 | INFO | louvores.services.import_service | Letra do hino CC-410 carregada!
+2026-05-16 05:17:22,055 | INFO | louvores.services.import_service | Letra do hino CC-411 carregada!
+2026-05-16 05:17:22,076 | INFO | louvores.services.import_service | Letra do hino CC-412 carregada!
+2026-05-16 05:17:22,096 | INFO | louvores.services.import_service | Letra do hino CC-413 carregada!
+2026-05-16 05:17:22,115 | INFO | louvores.services.import_service | Letra do hino CC-418 carregada!
+2026-05-16 05:17:22,135 | INFO | louvores.services.import_service | Letra do hino CC-419 carregada!
+2026-05-16 05:17:22,150 | INFO | louvores.services.import_service | Letra do hino CC-420 carregada!
+2026-05-16 05:17:22,170 | INFO | louvores.services.import_service | Letra do hino CC-421 carregada!
+2026-05-16 05:17:22,190 | INFO | louvores.services.import_service | Letra do hino CC-422 carregada!
+2026-05-16 05:17:22,205 | INFO | louvores.services.import_service | Letra do hino CC-423 carregada!
+2026-05-16 05:17:22,220 | INFO | louvores.services.import_service | Letra do hino CC-425 carregada!
+2026-05-16 05:17:22,240 | INFO | louvores.services.import_service | Letra do hino CC-426 carregada!
+2026-05-16 05:17:22,260 | INFO | louvores.services.import_service | Letra do hino CC-427 carregada!
+2026-05-16 05:17:22,280 | INFO | louvores.services.import_service | Letra do hino CC-428 carregada!
+2026-05-16 05:17:22,300 | INFO | louvores.services.import_service | Letra do hino CC-429 carregada!
+2026-05-16 05:17:22,321 | INFO | louvores.services.import_service | Letra do hino CC-430 carregada!
+2026-05-16 05:17:22,340 | INFO | louvores.services.import_service | Letra do hino CC-431 carregada!
+2026-05-16 05:17:22,360 | INFO | louvores.services.import_service | Letra do hino CC-432 carregada!
+2026-05-16 05:17:22,379 | INFO | louvores.services.import_service | Letra do hino CC-435 carregada!
+2026-05-16 05:17:22,396 | INFO | louvores.services.import_service | Letra do hino CC-436 carregada!
+2026-05-16 05:17:22,410 | INFO | louvores.services.import_service | Letra do hino CC-439 carregada!
+2026-05-16 05:17:22,430 | INFO | louvores.services.import_service | Letra do hino CC-440 carregada!
+2026-05-16 05:17:22,450 | INFO | louvores.services.import_service | Letra do hino CC-441 carregada!
+2026-05-16 05:17:22,470 | INFO | louvores.services.import_service | Letra do hino CC-442 carregada!
+2026-05-16 05:17:22,490 | INFO | louvores.services.import_service | Letra do hino CC-444 carregada!
+2026-05-16 05:17:22,510 | INFO | louvores.services.import_service | Letra do hino CC-446 carregada!
+2026-05-16 05:17:22,530 | INFO | louvores.services.import_service | Letra do hino CC-448 carregada!
+2026-05-16 05:17:22,551 | INFO | louvores.services.import_service | Letra do hino CC-453 carregada!
+2026-05-16 05:17:22,571 | INFO | louvores.services.import_service | Letra do hino CC-454 carregada!
+2026-05-16 05:17:22,590 | INFO | louvores.services.import_service | Letra do hino CC-455 carregada!
+2026-05-16 05:17:22,610 | INFO | louvores.services.import_service | Letra do hino CC-456 carregada!
+2026-05-16 05:17:22,630 | INFO | louvores.services.import_service | Letra do hino CC-457 carregada!
+2026-05-16 05:17:22,650 | INFO | louvores.services.import_service | Letra do hino CC-459 carregada!
+2026-05-16 05:17:22,671 | INFO | louvores.services.import_service | Letra do hino CC-460 carregada!
+2026-05-16 05:17:22,690 | INFO | louvores.services.import_service | Letra do hino CC-462 carregada!
+2026-05-16 05:17:22,705 | INFO | louvores.services.import_service | Letra do hino CC-463 carregada!
+2026-05-16 05:17:22,725 | INFO | louvores.services.import_service | Letra do hino CC-464 carregada!
+2026-05-16 05:17:22,746 | INFO | louvores.services.import_service | Letra do hino CC-465 carregada!
+2026-05-16 05:17:22,765 | INFO | louvores.services.import_service | Letra do hino CC-466 carregada!
+2026-05-16 05:17:22,785 | INFO | louvores.services.import_service | Letra do hino CC-467 carregada!
+2026-05-16 05:17:22,805 | INFO | louvores.services.import_service | Letra do hino CC-469 carregada!
+2026-05-16 05:17:22,820 | INFO | louvores.services.import_service | Letra do hino CC-470 carregada!
+2026-05-16 05:17:22,835 | INFO | louvores.services.import_service | Letra do hino CC-471 carregada!
+2026-05-16 05:17:22,850 | INFO | louvores.services.import_service | Letra do hino CC-472 carregada!
+2026-05-16 05:17:22,870 | INFO | louvores.services.import_service | Letra do hino CC-473 carregada!
+2026-05-16 05:17:22,890 | INFO | louvores.services.import_service | Letra do hino CC-476 carregada!
+2026-05-16 05:17:22,905 | INFO | louvores.services.import_service | Letra do hino CC-477 carregada!
+2026-05-16 05:17:22,920 | INFO | louvores.services.import_service | Letra do hino CC-478 carregada!
+2026-05-16 05:17:22,940 | INFO | louvores.services.import_service | Letra do hino CC-479 carregada!
+2026-05-16 05:17:22,955 | INFO | louvores.services.import_service | Letra do hino CC-480 carregada!
+2026-05-16 05:17:22,975 | INFO | louvores.services.import_service | Letra do hino CC-481 carregada!
+2026-05-16 05:17:22,995 | INFO | louvores.services.import_service | Letra do hino CC-482 carregada!
+2026-05-16 05:17:23,016 | INFO | louvores.services.import_service | Letra do hino CC-483 carregada!
+2026-05-16 05:17:23,035 | INFO | louvores.services.import_service | Letra do hino CC-484 carregada!
+2026-05-16 05:17:23,056 | INFO | louvores.services.import_service | Letra do hino CC-485 carregada!
+2026-05-16 05:17:23,071 | INFO | louvores.services.import_service | Letra do hino CC-486 carregada!
+2026-05-16 05:17:23,090 | INFO | louvores.services.import_service | Letra do hino CC-487 carregada!
+2026-05-16 05:17:23,110 | INFO | louvores.services.import_service | Letra do hino CC-490 carregada!
+2026-05-16 05:17:23,131 | INFO | louvores.services.import_service | Letra do hino CC-492 carregada!
+2026-05-16 05:17:23,151 | INFO | louvores.services.import_service | Letra do hino CC-493 carregada!
+2026-05-16 05:17:23,175 | INFO | louvores.services.import_service | Letra do hino CC-494 carregada!
+2026-05-16 05:17:23,197 | INFO | louvores.services.import_service | Letra do hino CC-495 carregada!
+2026-05-16 05:17:23,216 | INFO | louvores.services.import_service | Letra do hino CC-496 carregada!
+2026-05-16 05:17:23,235 | INFO | louvores.services.import_service | Letra do hino CC-497 carregada!
+2026-05-16 05:17:23,256 | INFO | louvores.services.import_service | Letra do hino CC-498 carregada!
+2026-05-16 05:17:23,276 | INFO | louvores.services.import_service | Letra do hino CC-499 carregada!
+2026-05-16 05:17:23,296 | INFO | louvores.services.import_service | Letra do hino CC-500 carregada!
+2026-05-16 05:17:23,315 | INFO | louvores.services.import_service | Letra do hino CC-501 carregada!
+2026-05-16 05:17:23,335 | INFO | louvores.services.import_service | Letra do hino CC-502 carregada!
+2026-05-16 05:17:23,351 | INFO | louvores.services.import_service | Letra do hino CC-503 carregada!
+2026-05-16 05:17:23,371 | INFO | louvores.services.import_service | Letra do hino CC-505 carregada!
+2026-05-16 05:17:23,390 | INFO | louvores.services.import_service | Letra do hino CC-507 carregada!
+2026-05-16 05:17:23,410 | INFO | louvores.services.import_service | Letra do hino CC-509 carregada!
+2026-05-16 05:17:23,431 | INFO | louvores.services.import_service | Letra do hino CC-510 carregada!
+2026-05-16 05:17:23,451 | INFO | louvores.services.import_service | Letra do hino CC-511 carregada!
+2026-05-16 05:17:23,465 | INFO | louvores.services.import_service | Letra do hino CC-512 carregada!
+2026-05-16 05:17:23,486 | INFO | louvores.services.import_service | Letra do hino CC-513 carregada!
+2026-05-16 05:17:23,501 | INFO | louvores.services.import_service | Letra do hino CC-514 carregada!
+2026-05-16 05:17:23,516 | INFO | louvores.services.import_service | Letra do hino CC-515 carregada!
+2026-05-16 05:17:23,535 | INFO | louvores.services.import_service | Letra do hino CC-516 carregada!
+2026-05-16 05:17:23,551 | INFO | louvores.services.import_service | Letra do hino CC-517 carregada!
+2026-05-16 05:17:23,566 | INFO | louvores.services.import_service | Letra do hino CC-518 carregada!
+2026-05-16 05:17:23,586 | INFO | louvores.services.import_service | Letra do hino CC-520 carregada!
+2026-05-16 05:17:23,606 | INFO | louvores.services.import_service | Letra do hino CC-522 carregada!
+2026-05-16 05:17:23,625 | INFO | louvores.services.import_service | Letra do hino CC-523 carregada!
+2026-05-16 05:17:23,638 | INFO | louvores.services.import_service | Letra do hino CC-524 carregada!
+2026-05-16 05:17:23,656 | INFO | louvores.services.import_service | Letra do hino CC-525 carregada!
+2026-05-16 05:17:23,676 | INFO | louvores.services.import_service | Letra do hino CC-527 carregada!
+2026-05-16 05:17:23,696 | INFO | louvores.services.import_service | Letra do hino CC-529 carregada!
+2026-05-16 05:17:23,716 | INFO | louvores.services.import_service | Letra do hino CC-530 carregada!
+2026-05-16 05:17:23,735 | INFO | louvores.services.import_service | Letra do hino CC-531 carregada!
+2026-05-16 05:17:23,750 | INFO | louvores.services.import_service | Letra do hino CC-532 carregada!
+2026-05-16 05:17:23,766 | INFO | louvores.services.import_service | Letra do hino CC-533 carregada!
+2026-05-16 05:17:23,786 | INFO | louvores.services.import_service | Letra do hino CC-534 carregada!
+2026-05-16 05:17:23,806 | INFO | louvores.services.import_service | Letra do hino CC-536 carregada!
+2026-05-16 05:17:23,826 | INFO | louvores.services.import_service | Letra do hino CC-537 carregada!
+2026-05-16 05:17:23,846 | INFO | louvores.services.import_service | Letra do hino CC-538 carregada!
+2026-05-16 05:17:23,866 | INFO | louvores.services.import_service | Letra do hino CC-539 carregada!
+2026-05-16 05:17:23,886 | INFO | louvores.services.import_service | Letra do hino CC-540 carregada!
+2026-05-16 05:17:23,906 | INFO | louvores.services.import_service | Letra do hino CC-541 carregada!
+2026-05-16 05:17:23,925 | INFO | louvores.services.import_service | Letra do hino CC-542 carregada!
+2026-05-16 05:17:23,946 | INFO | louvores.services.import_service | Letra do hino CC-560 carregada!
+2026-05-16 05:17:23,966 | INFO | louvores.services.import_service | Letra do hino CC-580 carregada!
+2026-05-16 05:17:23,985 | INFO | louvores.services.import_service | Letra do hino CC-581 carregada!
+2026-05-16 05:17:23,986 | INFO | louvores.services.import_service | Processando: HCC.zip
+2026-05-16 05:17:24,006 | INFO | louvores.services.import_service | Letra do hino HCC-001 carregada!
+2026-05-16 05:17:24,025 | INFO | louvores.services.import_service | Letra do hino HCC-002 carregada!
+2026-05-16 05:17:24,046 | INFO | louvores.services.import_service | Letra do hino HCC-004 carregada!
+2026-05-16 05:17:24,066 | INFO | louvores.services.import_service | Letra do hino HCC-006 carregada!
+2026-05-16 05:17:24,086 | INFO | louvores.services.import_service | Letra do hino HCC-008 carregada!
+2026-05-16 05:17:24,086 | INFO | louvores.services.import_service | Processando: HL.zip
+2026-05-16 05:17:24,106 | INFO | louvores.services.import_service | Letra do hino HL-002 carregada!
+2026-05-16 05:17:24,125 | INFO | louvores.services.import_service | Letra do hino HL-001 carregada!
+2026-05-16 05:17:24,141 | INFO | louvores.services.import_service | Letra do hino HL-003 carregada!
+2026-05-16 05:17:24,161 | INFO | louvores.services.import_service | Letra do hino HL-005 carregada!
+2026-05-16 05:17:24,175 | INFO | louvores.services.import_service | Letra do hino HL-009 carregada!
+2026-05-16 05:17:24,196 | INFO | louvores.services.import_service | Letra do hino HL-010 carregada!
+2026-05-16 05:17:24,216 | INFO | louvores.services.import_service | Letra do hino HL-011 carregada!
+2026-05-16 05:17:24,236 | INFO | louvores.services.import_service | Letra do hino HL-014 carregada!
+2026-05-16 05:17:24,256 | INFO | louvores.services.import_service | Letra do hino HL-019 carregada!
+2026-05-16 05:17:24,273 | INFO | louvores.services.import_service | Letra do hino HL-022 carregada!
+2026-05-16 05:17:24,291 | INFO | louvores.services.import_service | Letra do hino HL-027 carregada!
+2026-05-16 05:17:24,311 | INFO | louvores.services.import_service | Letra do hino HL-028 carregada!
+2026-05-16 05:17:24,331 | INFO | louvores.services.import_service | Letra do hino HL-031 carregada!
+2026-05-16 05:17:24,351 | INFO | louvores.services.import_service | Letra do hino HL-033 carregada!
+2026-05-16 05:17:24,371 | INFO | louvores.services.import_service | Letra do hino HL-041 carregada!
+2026-05-16 05:17:24,390 | INFO | louvores.services.import_service | Letra do hino HL-047 carregada!
+2026-05-16 05:17:24,411 | INFO | louvores.services.import_service | Letra do hino HL-053 carregada!
+2026-05-16 05:17:24,431 | INFO | louvores.services.import_service | Letra do hino HL-055 carregada!
+2026-05-16 05:17:24,451 | INFO | louvores.services.import_service | Letra do hino HL-056 carregada!
+2026-05-16 05:17:24,471 | INFO | louvores.services.import_service | Letra do hino HL-058 carregada!
+2026-05-16 05:17:24,490 | INFO | louvores.services.import_service | Letra do hino HL-063 carregada!
+2026-05-16 05:17:24,510 | INFO | louvores.services.import_service | Letra do hino HL-070 carregada!
+2026-05-16 05:17:24,531 | INFO | louvores.services.import_service | Letra do hino HL-078 carregada!
+2026-05-16 05:17:24,551 | INFO | louvores.services.import_service | Letra do hino HL-085 carregada!
+2026-05-16 05:17:24,571 | INFO | louvores.services.import_service | Letra do hino HL-086 carregada!
+2026-05-16 05:17:24,591 | INFO | louvores.services.import_service | Letra do hino HL-091 carregada!
+2026-05-16 05:17:24,610 | INFO | louvores.services.import_service | Letra do hino HL-098 carregada!
+2026-05-16 05:17:24,630 | INFO | louvores.services.import_service | Letra do hino HL-101 carregada!
+2026-05-16 05:17:24,651 | INFO | louvores.services.import_service | Letra do hino HL-105 carregada!
+2026-05-16 05:17:24,669 | INFO | louvores.services.import_service | Processando: VM.zip
+2026-05-16 05:17:24,701 | INFO | louvores.services.import_service | Letra do hino VM-018 carregada!
+2026-05-16 05:17:24,725 | INFO | louvores.services.import_service | Letra do hino VM-102 carregada!
+2026-05-16 05:17:24,745 | INFO | louvores.services.import_service | Letra do hino VM-351 carregada!
+2026-05-16 05:17:24,760 | INFO | louvores.services.import_service | Letra do hino VM-369 carregada!
+2026-05-16 05:17:24,781 | INFO | louvores.services.import_service | Letra do hino VM-379 carregada!
+2026-05-16 05:17:24,801 | INFO | louvores.services.import_service | Letra do hino VM-402 carregada!
+2026-05-16 05:17:24,820 | INFO | louvores.services.import_service | Letra do hino VM-403 carregada!
+2026-05-16 05:17:24,840 | INFO | louvores.services.import_service | Letra do hino VM-409 carregada!
+2026-05-16 05:17:24,861 | INFO | louvores.services.import_service | Letra do hino VM-001 carregada!
+2026-05-16 05:17:24,881 | INFO | louvores.services.import_service | Letra do hino VM-041 carregada!
+2026-05-16 05:17:24,900 | INFO | louvores.services.import_service | Letra do hino VM-072 carregada!
+2026-05-16 05:17:24,921 | INFO | louvores.services.import_service | Letra do hino VM-182 carregada!
+2026-05-16 05:17:24,940 | INFO | louvores.services.import_service | Letra do hino VM-232 carregada!
+2026-05-16 05:17:24,956 | INFO | louvores.services.import_service | Letra do hino VM-260 carregada!
+2026-05-16 05:17:24,976 | INFO | louvores.services.import_service | Letra do hino VM-262 carregada!
+2026-05-16 05:17:24,995 | INFO | louvores.services.import_service | Letra do hino VM-278 carregada!
+2026-05-16 05:17:25,011 | INFO | louvores.services.import_service | Letra do hino VM-279 carregada!
+2026-05-16 05:17:25,031 | INFO | louvores.services.import_service | Letra do hino VM-304 carregada!
+2026-05-16 05:17:25,053 | INFO | louvores.services.import_service | Letra do hino VM-310 carregada!
+2026-05-16 05:17:25,072 | INFO | louvores.services.import_service | Letra do hino VM-321 carregada!
+2026-05-16 05:17:25,088 | INFO | louvores.services.import_service | Letra do hino VM-337 carregada!
+2026-05-16 05:17:25,088 | INFO | louvores.services.import_service | Importação concluída!
+2026-05-16 05:17:25,089 | INFO | louvores.services.import_service | total_atualizados: 469
+2026-05-16 05:17:25,089 | INFO | louvores.services.import_service | total_ignorados: 0
+2026-05-16 05:17:25,089 | INFO | louvores.services.import_service | total_nao_encontrados: 0
+2026-05-16 05:17:40,861 | INFO | louvores.services.stats_service | Estatísticas calculadas!
